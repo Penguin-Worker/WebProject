@@ -8,6 +8,7 @@ body {
     background-color: #FFFFFF; /* Фон страницы */
     margin: 0 auto;
     cursor: default;
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
