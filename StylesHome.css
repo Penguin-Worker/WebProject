@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+main{
+    position: relative;
+}
+.MenuHigh{
+    position: absolute;
+height: 82px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+}
+.rectangle-1{
+    position: absolute;
+height: 82px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 0px;
+
+}
+.rectangle-2{
+    position: absolute;
+height: 2px;
+left: -88.89%;
+right: -88.89%;
+top: 1px;
+
+background: #000000;
+border-radius: 0px;
+
+}
