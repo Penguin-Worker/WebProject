@@ -1555,3 +1555,106 @@ top: 0px;
     border-radius: 0px;
     
     }
+.Frame9{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+position: absolute;
+height: 75px;
+left: 0%;
+right: 0%;
+top: 4837px;
+
+}
+.Frame9Rectangle{
+   
+position: absolute;
+height: 2px;
+left: -88.89%;
+right: -88.89%;
+top: 71px;
+
+background: #000000;
+border-radius: 0px;
+
+}
+.Frame9-1{
+    
+position: absolute;
+height: 55px;
+left: 85.07%;
+right: 1.04%;
+top: 17px;
+
+}
+.Frame9-1text{
+    
+position: absolute;
+width: 85px;
+height: 28px;
+left: calc(50% - 85px/2 + 0.5px);
+top: 13px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 164% */
+text-align: center;
+
+color: #000000;
+
+}
+.Frame9-1Rectangle{
+    
+position: absolute;
+height: 55px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame9-2{
+   
+position: absolute;
+height: 108px;
+left: 4.58%;
+right: 66.25%;
+top: -29px;
+
+}
+.Frame9-2text{
+  
+position: absolute;
+height: 109px;
+left: 0%;
+right: 16.67%;
+top: 6px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 108px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame9-2Rectangle{
+  
+position: absolute;
+height: 108px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
