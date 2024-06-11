@@ -1137,33 +1137,194 @@ position: absolute;
 height: 620px;
 left: 0%;
 right: 0%;
-top: 4022px;
+top: 2494px;
 max-width: 1440px;
 width: 100%;
 display: flex;
 justify-content: center;
 }
-.Frame5-png1{
-   
+.Frame5-1{
 position: absolute;
-height: 620px;
-left: 50.07%;
-right: -0.07%;
+height: 31px;
+left: 49.93%;
+right: 47.15%;
+top: 280px;
+}
+.Frame5-1text{
+    
+position: absolute;
+height: 31px;
+left: 0%;
+right: 0%;
 top: 0px;
 
-background: url(Images/image10.jpg);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 31px;
+/* identical to box height, or 163% */
+
+color: #000000;
+
+}
+.Frame5-1Rectangle{
+   
+position: absolute;
+height: 31px;
+left: 0%;
+right: 0%;
+top: 0px;
 border-radius: 0px;
 
 }
-.Frame5-png2{
+.Frame5-2{
+    
+position: absolute;
+height: 120px;
+left: 50%;
+right: 29.86%;
+top: 500px;
+    }
+.Frame5-2text{
+    
+position: absolute;
+width: 156px;
+height: 28px;
+left: calc(50% - 156px/2);
+top: 46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 155% */
+text-align: center;
+
+color: #000000;
+
+}
+.Frame5-2Rectangle{
+    
+position: absolute;
+height: 120px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame5-3{
+   
+position: absolute;
+height: 108px;
+left: 49.93%;
+right: 33.4%;
+top: 293px;
+
+}
+.Frame5-3text{
+    
+position: absolute;
+height: 109px;
+left: 0%;
+right: 2.92%;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 108px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame5-3Rectangle{
+    
+position: absolute;
+height: 108px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame5Rectangle1{
+    
+position: absolute;
+height: 120px;
+left: 50%;
+right: 29.86%;
+top: 500px;
+
+background: #FFBCBC;
+border-radius: 0px;
+
+}
+.Frame5-4{
+    
+position: absolute;
+height: 31px;
+left: 50.14%;
+right: 31.81%;
+top: 400px;
+
+}
+.Frame5-4text{
+ 
+position: absolute;
+height: 31px;
+left: 0%;
+right: 1.54%;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame5-4Rectangle{
+    
+position: absolute;
+height: 31px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame5Img{
+  
+position: absolute;
+height: 620px;
+left: 0%;
+right: 55%;
+top: 0px;
+
+background: url(Images/image12.jpg);
+border-radius: 0px;
+
+}
+.Frame5Generalrectangle{
    
 position: absolute;
 height: 620px;
-left: 0.07%;
-right: 49.93%;
+left: 0%;
+right: 0%;
 top: 0px;
 
-background: url(Images/image11.jpg);
+background: #AABAD0;
 border-radius: 0px;
 
-    }
+}
