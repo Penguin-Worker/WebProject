@@ -455,3 +455,129 @@ bottom: 50%;
 border: 0px solid #000000;
 
 }
+
+.Frame2{
+    
+position: absolute;
+height: 620px;
+left: 0%;
+right: 0%;
+top: 967px;
+
+}
+.Frame2-1{
+    
+position: absolute;
+height: 110px;
+left: 30.56%;
+right: 50%;
+top: 510px;
+
+}
+.Frame2-1Rectangle{
+        
+position: absolute;
+height: 110px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFBCBC;
+border-radius: 0px;
+    
+    }
+.Frame2-1text{
+    
+position: absolute;
+width: 121px;
+height: 28px;
+left: calc(50% - 121px/2 + 0.5px);
+top: 41px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 155% */
+text-align: center;
+
+color: #000000;
+
+    }
+.Frame2-png1{
+    
+position: absolute;
+height: 620px;
+left: 0.07%;
+right: 49.93%;
+top: 0px;
+
+background: url(Images/image2.jpg);
+border-radius: 0px;
+
+}
+.Frame2-2{
+    
+position: absolute;
+height: 110px;
+left: 80.56%;
+right: 0%;
+top: 510px;
+    
+    }
+    .Frame2-2Rectangle{
+                
+position: absolute;
+height: 110px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFBCBC;
+border-radius: 0px;
+
+        }
+    .Frame2-2text{
+    
+position: absolute;
+width: 91px;
+height: 28px;
+left: calc(50% - 91px/2 + 0.5px);
+top: 41px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 155% */
+text-align: center;
+
+color: #000000;
+
+        }
+    .Frame2-png2{
+     
+position: absolute;
+height: 620px;
+left: 50%;
+right: 0%;
+top: 0px;
+
+    background: url(Images/image3.jpg);
+    border-radius: 0px;
+    
+    }
+.Frame2Rectangle{
+ 
+position: absolute;
+height: 620px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 0px;
+
+        }
