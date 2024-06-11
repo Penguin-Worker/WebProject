@@ -1997,3 +1997,122 @@ top: 0%;
 bottom: 1.41%;
 
 }
+.Frame11{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+position: absolute;
+height: 490px;
+left: 0%;
+right: 0%;
+top: 5582px;
+
+}
+.Frame11-1{
+    
+position: absolute;
+height: 330px;
+left: 9.65%;
+right: 57.71%;
+top: 99px;
+
+}
+.Frame11-1text1{
+    
+position: absolute;
+height: 120px;
+left: 0%;
+right: 0.64%;
+top: 2px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+color: #000000;
+
+}
+.Frame11-1text2{
+
+position: absolute;
+height: 180px;
+left: 0%;
+right: 0.43%;
+top: 152px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+color: #000000;
+
+}
+.Frame11-1Rectangle{
+   
+position: absolute;
+height: 330px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+}
+.Frame11img{
+    
+position: absolute;
+height: 490px;
+left: 50%;
+right: 20.83%;
+top: 0px;
+
+background: url(images/image20.jpg);
+border-radius: 0px;
+
+}
+.Frame11-2{
+    
+position: absolute;
+height: 108px;
+left: 9.51%;
+right: 51.6%;
+top: -29px;
+
+}
+.Frame11-2text{
+   
+position: absolute;
+height: 109px;
+left: 0%;
+right: 26.96%;
+top: 3px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 108px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame11GeneralRectangle{
+   
+position: absolute;
+height: 490px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 0px;
+
+}
