@@ -8,6 +8,7 @@ right: 0%;
 top: 0px;
 
 }
+
 .rectangle-1{
  
 position: absolute;
@@ -349,5 +350,108 @@ right: 8.33%;
 top: 71px;
 background: url(images/image21.png);
 border-radius: 0px;
+
+}
+.Frame1-2{  
+
+position: absolute;
+height: 55px;
+left: 8.89%;
+right: 77.22%;
+top: 471px;
+
+ }
+ .Frame1-2text{  
+
+position: absolute;
+width: 179px;
+height: 28px;
+left: calc(50% - 179px/2 + 0.5px);
+top: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 164% */
+text-align: center;
+
+color: #000000;
+    
+     }
+.Frame1-2Rectangle{
+   
+position: absolute;
+height: 55px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 30px;
+
+}
+.Frame1-3{
+    
+position: absolute;
+height: 17px;
+left: 22.71%;
+right: 73.47%;
+top: 490px;
+
+}
+.Frame1-3Rectangle{
+ 
+position: absolute;
+height: 17px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame1-3vector{
+   
+position: absolute;
+height: 17px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+    
+}
+.Frame1-3v1{
+  
+position: absolute;
+left: 80.26%;
+right: 1.97%;
+top: 50%;
+bottom: 4.17%;
+
+border: 0px solid #000000;
+
+}
+.Frame1-3v2{
+   
+position: absolute;
+left: 80.26%;
+right: 1.97%;
+top: 4.17%;
+bottom: 50%;
+
+border: 0px solid #000000;
+
+}
+.Frame1-3v3{
+
+position: absolute;
+left: 1.32%;
+right: 1.32%;
+top: 50%;
+bottom: 50%;
+
+border: 0px solid #000000;
 
 }
