@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .MenuHigh{
     position: absolute;
     width: 1440;
@@ -294,7 +294,7 @@ border-radius: 30px;
              }
 
 .Frame1{
-  
+
 position: absolute;
 height: 720px;
 left: 0%;
@@ -340,15 +340,14 @@ top: 0px;
 border-radius: 0px;
 
 }
-.Frame1-1{
+.Frame1-png{
    
 position: absolute;
 height: 578px;
 left: 57.78%;
 right: 8.33%;
 top: 71px;
-
-background: url(image.png);
+background: url(images/image21.png);
 border-radius: 0px;
 
 }
