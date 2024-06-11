@@ -1518,3 +1518,40 @@ border-radius: 0px;
         border-radius: 0px;
         
         }
+
+.Frame8{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+position: absolute;
+height: 620px;
+left: 0%;
+right: 0%;
+top: 4022px;
+}
+.Frame8img1{
+
+position: absolute;
+height: 620px;
+left: 0.07%;
+right: 49.93%;
+top: 0px;
+
+background: url(Images/image11.jpg);
+border-radius: 0px;
+
+}
+.Frame8img2{
+
+position: absolute;
+height: 620px;
+left: 50.07%;
+right: -0.07%;
+top: 0px;
+
+    background: url(Images/image10.jpg);
+    border-radius: 0px;
+    
+    }
