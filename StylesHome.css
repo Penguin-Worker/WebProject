@@ -292,3 +292,63 @@ top: 0px;
 border-radius: 30px;
 
              }
+
+.Frame1{
+  
+position: absolute;
+height: 720px;
+left: 0%;
+right: 0%;
+top: 97px;
+
+}
+.Frame1-1{
+
+position: absolute;
+height: 130px;
+left: 9.03%;
+right: 11.81%;
+top: 366px
+
+}
+.Frame1-1text{
+    
+position: absolute;
+height: 131px;
+left: 0%;
+right: 6.05%;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 84px;
+line-height: 130px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame1-1Rectangle{
+   
+position: absolute;
+height: 130px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
+.Frame1-1{
+   
+position: absolute;
+height: 578px;
+left: 57.78%;
+right: 8.33%;
+top: 71px;
+
+background: url(image.png);
+border-radius: 0px;
+
+}
