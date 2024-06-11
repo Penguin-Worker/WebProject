@@ -1429,3 +1429,92 @@ top: 0px;
 border-radius: 0px;
 
 }
+
+.Frame7{
+    max-width: 1440px;
+width: 100%;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+position: absolute;
+height: 367.36px;
+left: 0%;
+right: 0%;
+top: 3459.36px;
+
+}
+.Frame7Img11{
+
+position: absolute;
+height: 254px;
+left: 0.08%;
+right: 0%;
+top: -0.36px;
+
+background: url(Images/image13.jpg);
+border-radius: 0px;
+
+}
+.Frame7Img12{
+    
+position: absolute;
+height: 254px;
+left: 0.08%;
+right: 0%;
+top: -0.36px;
+
+background: url(Images/image14.jpg);
+border-radius: 0px;
+
+}
+
+.Frame7Img21{
+
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: -0.36px;
+    
+    background: url(Images/image15.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame7Img22{
+        
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: -0.36px;
+    
+    background: url(Images/image16.jpg);
+    border-radius: 0px;
+    
+    }
+
+    .Frame7Img31{
+
+        position: absolute;
+        height: 254px;
+        left: 0.08%;
+        right: 0%;
+        top: -0.36px;
+        
+        background: url(Images/image17.jpg);
+        border-radius: 0px;
+        
+        }
+        .Frame7Img32{
+            
+        position: absolute;
+        height: 254px;
+        left: 0.08%;
+        right: 0%;
+        top: -0.36px;
+        
+        background: url(Images/image18.jpg);
+        border-radius: 0px;
+        
+        }
