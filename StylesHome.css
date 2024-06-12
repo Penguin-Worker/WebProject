@@ -8,6 +8,9 @@ body {
     background-color: #FFFFFF; /* Фон страницы */
     margin: 0 auto;
 }
+.mobile-only-content {
+    display: none; /* По умолчанию скрыт для больших экранов */
+}
 .MenuHigh{
     position: absolute;
     width: 1440;
