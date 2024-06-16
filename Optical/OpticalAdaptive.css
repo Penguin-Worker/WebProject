@@ -348,9 +348,33 @@ background: #AABAD0;
 
 }
 
+.Frame2{
+    
+position: absolute;
+width: 768px;
+height: 75px;
+left: 0px;
+top: 810px;
 
+}
+.Frame2-1{
+   
+position: absolute;
+height: 55px;
+left: 73.05%;
+right: 4.3%;
+top: 17px;
 
+}
+.Frame2-2{
+   
+position: absolute;
+height: 108px;
+left: 4.56%;
+right: 31.77%;
+top: -23px;
 
+}
 
 
 
