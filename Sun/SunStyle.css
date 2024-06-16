@@ -525,9 +525,423 @@ top: 832px;
     border-radius: 0px;
     
          }
+.Frame3{
+    
+position: absolute;
+height: 367.36px;
+left: -0.07%;
+right: 0.07%;
+top: 982px;
 
+}
 
+.Frame3-1{
+   
+    position: absolute;
+    width: 453.33px;
+    height: 367.36px;
+    left: calc(50% - 453.33px/2 + 473.32px);
+    top: 0px;
+    
+    }
+    .Frame3-1-1{
+       
+    position: absolute;
+    height: 113.5px;
+    left: 0%;
+    right: 0%;
+    top: 253.86px;
+    
+    }
+    .Frame3-1-1text{
+    
+    position: absolute;
+    width: 67px;
+    height: 25px;
+    left: calc(50% - 67px/2 + 0.18px);
+    top: 54.14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 155% */
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    .Frame3-1-1text2{
+        
+    position: absolute;
+    width: 115px;
+    height: 27px;
+    left: calc(50% - 115px/2 + 0.18px);
+    top: 20.14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 27px;
+    /* identical to box height, or 142% */
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    .Frame3-1-1-1{
+       
+    position: absolute;
+    width: 34px;
+    height: 21px;
+    left: calc(50% - 34px/2 - 0.01px);
+    top: calc(50% - 21px/2 + 46.25px);
+    
+    }
+    .Frame3-1-1-1text{
+    
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    left: calc(50% - 28px/2 + 8.69px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 154% */
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    .Frame3-1-1-1text2{
+    
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    left: calc(50% - 12px/2 - 11.31px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    .Frame3-1-2{
+    
+    position: absolute;
+    height: 253.86px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    
+    }
+    .Frame3-1-2pic1{
+    
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: 0px;
+    
+    background: url(Images/image4.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame3-1-2pic2{
+    
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: 0px;
+    
+    background: url(Images/image5.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame3-2{
+       
+    position: absolute;
+    width: 453.33px;
+    height: 367.36px;
+    left: calc(50% - 453.33px/2 - 0.01px);
+    top: 0px;
+        
+        }
+        .Frame3-2-1{
+        
+    position: absolute;
+    height: 113.5px;
+    left: 0%;
+    right: 0%;
+    top: 253.86px;
+        
+        }
+        .Frame3-2-1-1{
+      
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: calc(50% - 37px/2 - 0.01px);
+    top: calc(50% - 21px/2 + 46.25px);
+    
+        }
+        .Frame3-2-1-1text{
+       
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    left: calc(50% - 31px/2 + 8.52px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    
+    color: #000000;
+        
+        }
+        .Frame3-2-1-1text2{
+        
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    left: calc(50% - 12px/2 - 12.98px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    
+    color: #000000;
+        
+        }
+        .Frame3-2-2{
+            
+    position: absolute;
+    height: 253.86px;
+    left: 0%;
+    right: 0%;
+    top: 0px;    
+        
+        }
+        .Frame3-2-2pic1{
+        
+    position: absolute;
+    height: 254px;
+    left: -0.07%;
+    right: 0.14%;
+    top: 0px;
+    
+    background: url(Images/image6.jpg);
+    border-radius: 0px;
+    
+        }
+        .Frame3-2-2pic2{
+       
+    position: absolute;
+    height: 254px;
+    left: -0.07%;
+    right: 0.14%;
+    top: 0px;
+    
+    background: url(Images/image7.jpg);
+    border-radius: 0px;
+    
+        }
+        .Frame3-2-1text{
+            
+    position: absolute;
+    width: 67px;
+    height: 25px;
+    left: calc(50% - 67px/2 - 0.49px);
+    top: 54.14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 155% */
+    text-align: center;
+    
+    color: #000000;
+            
+            }
+            .Frame3-2-1text2{
+           
+position: absolute;
+width: 70px;
+height: 27px;
+left: calc(50% - 70px/2 + 0.34px);
+top: 20.14px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height, or 135% */
+text-align: center;
+
+color: #000000;
+
+            }
+            .Frame3-3{
+       
+    position: absolute;
+    width: 453.33px;
+    height: 367.36px;
+    left: calc(50% - 453.33px/2 - 473.34px);
+    top: 0px;
+                    
+                    }
+                    .Frame3-3-1{
+                    
+    position: absolute;
+    height: 113.5px;
+    left: 0%;
+    right: 0%;
+    top: 253.86px;
+                    
+                    }
+                    .Frame3-3-1-1{
+                  
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    left: calc(50% - 29px/2 - 0.01px);
+    top: calc(50% - 21px/2 + 46.25px);
+    
+                    }
+                    .Frame3-3-1-1text{
+                  
+    position: absolute;
+    width: 19px;
+    height: 22px;
+    left: calc(50% - 19px/2 + 4.84px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    color: #000000;
+                    
+                    }
+                    .Frame3-3-1-1text2{
+                    
+    position: absolute;
+    width: 10px;
+    height: 22px;
+    left: calc(50% - 10px/2 - 9.66px);
+    top: calc(50% - 22px/2 + 0.14px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    
+    color: #000000;
+    
+                    }
+                    .Frame3-3-2{
+                   
+    position: absolute;
+    height: 253.86px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+                    }
+                    .Frame3-3-2pic1{
+                    
+    position: absolute;
+    height: 254px;
+    left: 0%;
+    right: 0.07%;
+    top: 0px;
+    
+                background: url(Images/image8.jpg);
+                border-radius: 0px;
+                
+                    }
+                    .Frame3-3-2pic2{
+                   
+position: absolute;
+width: 478.79px;
+height: 367px;
+left: 0;
+top: -34px;
+
+                background: url(Images/image9.jpg);
+                border-radius: 0px;
+                
+                    }
+                    .Frame3-3-1text{
+                     
+    position: absolute;
+    width: 67px;
+    height: 25px;
+    left: calc(50% - 67px/2 - 0.16px);
+    top: 54.14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 155% */
+    text-align: center;
+    
+    color: #000000;
+         
+                        }
+                        .Frame3-3-1text2{
+                      
+    position: absolute;
+    width: 59px;
+    height: 27px;
+    left: calc(50% - 59px/2 - 0.16px);
+    top: 20.14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    text-align: center;
+    
+    color: #000000;
+    
+                        }
 
 
 
