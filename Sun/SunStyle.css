@@ -7,6 +7,7 @@ body {
     height: 100vh;
     background-color: #FFFFFF; /* Фон страницы */
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .mobile-only-content {
     display: none; /* По умолчанию скрыт для больших экранов */
