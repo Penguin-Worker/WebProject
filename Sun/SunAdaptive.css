@@ -289,21 +289,21 @@ top: 90px;
 
 }
 .Frame1-2{
-    
+   
 position: absolute;
 height: 184px;
-left: 3.26%;
-right: -5.21%;
-top: 360px;
+left: 1.82%;
+right: 0.13%;
+top: 354px;
 
 }
 .Frame1-2text{
-   
+  
 position: absolute;
-height: 308px;
-left: -1.53%;
-right: 32.82%;
-top: -159px;
+height: 261px;
+left: 0%;
+right: 6.05%;
+top: 0px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -326,14 +326,14 @@ top: 615px;
 
 }
 .Frame1PIC{
-    
+   
 position: absolute;
-width: 631px;
-height: 534px;
-left: 125px;
-top: 7px;
+width: 739px;
+height: 485px;
+left: 14px;
+top: 16px;
 
-background: url(Images/image95.png);
+background: url(images/image1.png);
 
 }
 .Frame1rec{
