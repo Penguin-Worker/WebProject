@@ -714,8 +714,8 @@ flex-grow: 1;
 
 }
 .Frame2-2Ttext1{
-    
-width: 1184px;
+
+width: 306px;
 height: 144px;
 
 /* H2 */
@@ -733,7 +733,6 @@ color: #0B4141;
 /* Inside auto layout */
 flex: none;
 order: 0;
-align-self: stretch;
 flex-grow: 0;
 
 }
@@ -952,7 +951,7 @@ border-radius: 0px;
 
 }
 .Frame4Map{
-    /* Google Maps */
+    /* Google Maps Widget */
 
 position: absolute;
 width: 640px;
