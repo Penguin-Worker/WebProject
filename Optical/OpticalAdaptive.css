@@ -376,7 +376,71 @@ top: -23px;
 
 }
 
+.Frame3{
+    
+position: absolute;
+width: 768px;
+height: 1097px;
+left: 1px;
+top: 885px;
 
+}
+.Frame3-1{
+    
+position: absolute;
+width: 453.33px;
+height: 367.36px;
+left: calc(50% - 453.33px/2 - 0.34px);
+top: 729px;
+
+}
+
+.Frame3-2{
+  
+position: absolute;
+width: 453px;
+height: 348px;
+left: calc(50% - 453px/2 - 0.5px);
+top: 375px;
+
+}
+
+.Frame3-3{
+   
+position: absolute;
+width: 453px;
+height: 347px;
+left: calc(50% - 453px/2 - 0.5px);
+top: 0px;
+
+}
+.Frame4{
+   
+position: absolute;
+width: 768px;
+height: 1097px;
+left: 1px;
+top: 1998px;
+
+}
+.Frame5{
+    
+position: absolute;
+width: 768px;
+height: 75px;
+left: 0px;
+top: 3148px;
+
+}
+.Frame5-2{
+    
+position: absolute;
+height: 108px;
+left: 1.43%;
+right: 1.95%;
+top: -29px;
+
+}
 
 
 
