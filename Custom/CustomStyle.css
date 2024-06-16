@@ -478,10 +478,289 @@ flex-grow: 0;
 
 }
 
+.Frame2{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+position: absolute;
+height: 1072px;
+left: 0%;
+right: 0%;
+top: 976px;
 
 
 
+}
 
+.Frame2-1{
+   
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 624px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Frame2-1ForPic
+{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 96px 0px 160px;
+gap: 10px;
+
+width: 463px;
+height: 624px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Frame2Pic{
+    
+width: 592px;
+height: 545px;
+
+background: url(images/image77.png);
+border-radius: 272.5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Frame2-1T{
+    
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 96px 160px 96px 96px;
+gap: 48px;
+
+width: 577px;
+height: 624px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Frame2-1T-1{
+    
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 478px;
+height: 360px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Frame2-1T-1text1{
+    
+width: 478px;
+height: 72px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+/* identical to box height, or 106% */
+
+/* Secondary */
+color: #FFCCBC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Frame2-1T-1text2{
+    
+width: 464px;
+height: 256px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* Primary */
+color: #0B4141;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Frame2-1T-2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 199px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Frame2-1T-2text{
+    
+width: 167px;
+height: 22px;
+
+/* Navigation */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Primary */
+color: #0B4141;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.Frame2-2{
+    
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1440px;
+height: 480px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Frame2-2T{
+   
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 96px 128px 160px;
+gap: 32px;
+
+width: 1440px;
+height: 480px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.Frame2-2Ttext1{
+    
+width: 1184px;
+height: 144px;
+
+/* H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+/* or 106% */
+
+/* Primary */
+color: #0B4141;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.Frame2-2Ttext2{
+   
+width: 1184px;
+height: 128px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* Primary */
+color: #0B4141;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
 
 
 
