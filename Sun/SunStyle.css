@@ -952,14 +952,104 @@ top: 1449px;
 
 }
 
+.Frame5{
+    
+position: absolute;
+height: 75px;
+left: -0.07%;
+right: 0.07%;
+top: 1891px;
 
+}
+.Frame5rec{
+   
+position: absolute;
+height: 2px;
+left: -88.89%;
+right: -88.89%;
+top: 71px;
 
+background: #000000;
+border-radius: 0px;
 
+}
+.Frame5-1{
+    
+position: absolute;
+height: 55px;
+left: 81.88%;
+right: 4.24%;
+top: 17px;
 
+}
+.Frame5-1rec{
+    
+position: absolute;
+height: 55px;
+left: 0%;
+right: 0%;
+top: 0px;
 
+border-radius: 0px;
+}
 
+.Frame5-1text{
+   
+position: absolute;
+width: 179px;
+height: 28px;
+left: calc(50% - 179px/2 + 0.5px);
+top: 14px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 164% */
+text-align: center;
 
+color: #000000;
+
+}
+.Frame5-2{
+   
+position: absolute;
+height: 108px;
+left: 4.58%;
+right: 45.76%;
+top: -29px;
+
+}
+.Frame5-2text{
+   
+position: absolute;
+height: 109px;
+left: 0%;
+right: 16.67%;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 108px;
+/* identical to box height, or 155% */
+
+color: #000000;
+
+}
+.Frame5-2rec{
+  
+position: absolute;
+height: 108px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 0px;
+
+}
 
 
 
