@@ -1050,8 +1050,89 @@ top: 0px;
 border-radius: 0px;
 
 }
+.Frame6{
+  
+position: absolute;
+height: 367.36px;
+left: -0.07%;
+right: 0.07%;
+top: 2041.36px;
 
+}
+.Frame6Img11{
 
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: -0.36px;
+    
+    background: url(Images/image13.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame6Img12{
+        
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: -0.36px;
+    
+    background: url(Images/image14.jpg);
+    border-radius: 0px;
+    
+    }
+    
+    .Frame6Img21{
+    
+        position: absolute;
+        height: 254px;
+        left: 0.08%;
+        right: 0%;
+        top: -0.36px;
+        
+        background: url(Images/image15.jpg);
+        border-radius: 0px;
+        
+        }
+        .Frame6Img22{
+            
+        position: absolute;
+        height: 254px;
+        left: 0.08%;
+        right: 0%;
+        top: -0.36px;
+        
+        background: url(Images/image16.jpg);
+        border-radius: 0px;
+        
+        }
+    
+        .Frame6Img31{
+    
+            position: absolute;
+            height: 254px;
+            left: 0.08%;
+            right: 0%;
+            top: -0.36px;
+            
+            background: url(Images/image17.jpg);
+            border-radius: 0px;
+            
+            }
+            .Frame6Img32{
+                
+            position: absolute;
+            height: 254px;
+            left: 0.08%;
+            right: 0%;
+            top: -0.36px;
+            
+            background: url(Images/image18.jpg);
+            border-radius: 0px;
+            
+            }
 
 
 
