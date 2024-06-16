@@ -1182,8 +1182,51 @@ background: #000000;
 border-radius: 0px;
 
 }
+.Frame6{
+  
+position: absolute;
+width: 320px;
+height: 1100px;
+left: 1px;
+top: 3357px;
 
-
+}
+.Frame6Img11{
+    
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: -0.36px;
+    
+    background: url(images/image13t.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame6Img21{
+        
+    position: absolute;
+    height: 254px;
+    left: -0.07%;
+    right: 0.14%;
+    top: -0.36px;
+    
+    background: url(images/image15t.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame6Img31{
+        
+    position: absolute;
+    height: 254px;
+    left: 0%;
+    right: 0.07%;
+    top: -0.36px;
+    
+    background: url(images/image17t.jpg);
+    border-radius: 0px;
+    
+    }
 
 
 
@@ -1195,7 +1238,7 @@ position: absolute;
 width: 320px;
 height: 914px;
 left: 0px;
-top: 7299px;
+top: 4414px;
 }
 .FooterRectangle{
     
