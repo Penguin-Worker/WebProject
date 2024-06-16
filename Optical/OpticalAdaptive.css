@@ -441,7 +441,15 @@ right: 1.95%;
 top: -29px;
 
 }
+.Frame6{
+    
+position: absolute;
+width: 768px;
+height: 1118px;
+left: -1px;
+top: 3223px;
 
+}
 
 
 footer{
@@ -454,7 +462,7 @@ position: absolute;
 width: 768px;
 height: 588px;
 left: 0px;
-top: 8292px;
+top: 4341px;
 
 }
 
