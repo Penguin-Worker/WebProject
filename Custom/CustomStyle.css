@@ -837,13 +837,130 @@ flex-grow: 0;
 
 }
 
+.Frame4{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+position: absolute;
+
+height: 701px;
+left: 0%;
+right: 0%;
+top: 2528px;
+
+background: #ffffff;
+
+}
+.Frame4T{
+   
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 506px;
+height: 336px;
+left: 816px;
+top: 134.65px;
+
+}
+.Frame4Ttext1{
+    
+position: absolute;
+width: 506px;
+height: 160px;
+left: 0px;
+top: 176px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+text-align: center;
+
+/* Primary */
+color: #0B4141;
 
 
+}
+.Frame4Ttext2{
+   
+position: absolute;
+width: 506px;
+height: 144px;
+left: calc(50% - 506px/2);
+top: calc(50% - 144px/2 - 96px);
+
+/* H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 72px;
+/* or 106% */
+text-align: center;
+
+/* Primary */
+color: #0B4141;
 
 
+}
+.Frame4B{
+   
+position: absolute;
+height: 110px;
+left: 5.56%;
+right: 50%;
+top: 471px;
 
+}
+.Frame4Btext{
+   
+position: absolute;
+width: 151px;
+height: 25px;
+left: calc(50% - 151px/2 - 0.5px);
+top: 42px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 28px;
+/* or 78% */
+text-align: center;
 
+color: #000000;
+
+}
+.Frame4BREC{
+    
+position: absolute;
+height: 110px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFBCBC;
+border-radius: 0px;
+
+}
+.Frame4Map{
+    /* Google Maps */
+
+position: absolute;
+width: 640px;
+height: 340px;
+left: 80px;
+top: 131px;
+
+}
 
 
              footer{
@@ -856,7 +973,8 @@ flex-grow: 0;
             height: 490px;
             left: 0%;
             right: 0%;
-            top: 6222px;
+            top: 3229px;
+
             }
             .FooterRectangle{
                 
