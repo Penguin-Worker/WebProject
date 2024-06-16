@@ -337,14 +337,14 @@ border-radius: 0px;
 
 }
 .Frame1PIC{
-    
-position: absolute;
-width: 739px;
-height: 485px;
-left: 15px;
-top: 117px;
 
-background: url(Images/image1.png);
+position: absolute;
+width: 636px;
+height: 591px;
+left: 20px;
+top: 79px;
+
+background: url(Images/image1.jpg);
 
 }
 .Frame1-1{
@@ -391,9 +391,10 @@ color: #000000;
     
 position: absolute;
 height: 224px;
-left: 53.19%;
-right: 0%;
+left: 47.36%;
+right: 0.97%;
 top: 176px;
+
 
 }
 .Frame1-2text{
