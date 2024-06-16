@@ -1028,11 +1028,91 @@ top: -24px;
 
 }
 
+.Frame3{
+   
+position: absolute;
+width: 320px;
+height: 1000px;
+left: 0px;
+top: 1110px;
 
+}
 
+.Frame3-1{
+  
+    position: absolute;
+    width: 300px;
+    height: 307px;
+    left: calc(50% - 300px/2);
+    top: 608px;
+    
+    }
+    
+    .Frame3-1-2pic1{
+       
+    position: absolute;
+    height: 254px;
+    left: 0.08%;
+    right: 0%;
+    top: 0px;
+    
+    background: url(images/image8t.jpg);
+    border-radius: 0px;
+    
+    }
+    
+    .Frame3-2{
+        
+    position: absolute;
+    width: 300px;
+    height: 307px;
+    left: calc(50% - 300px/2);
+    top: 282px;
+    
+    }
+    .Frame3-2-2pic1{
+       
+    position: absolute;
+    height: 254px;
+    left: -0.07%;
+    right: 0.14%;
+    top: 0px;
+    
+    background: url(images/image6t.jpg);
+    border-radius: 0px;
+    
+    }
+    .Frame3-3{
+        
+    position: absolute;
+    width: 300px;
+    height: 307px;
+    left: calc(50% - 300px/2);
+    top: -30px;
+    
+    }
+    .Frame3-3-2pic1{
+       
+position: absolute;
+height: 254px;
+left: -0.07%;
+right: 0.14%;
+top: 0px;
 
+    background: url(images/image4t.jpg);
+    border-radius: 0px;
+    
+    }
 
+.Frame4{
+   
+position: absolute;
+width: 320px;
+height: 1000px;
+left: 0px;
+top: 2087px;
 
+}
 
 
 
