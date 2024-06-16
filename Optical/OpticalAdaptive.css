@@ -1113,11 +1113,75 @@ left: 0px;
 top: 2087px;
 
 }
+.Frame5{
+   
+position: absolute;
+width: 320px;
+height: 193px;
+left: 0px;
+top: 3115px;
 
+}
+.Frame5-1{
+   
+position: absolute;
+height: 36px;
+left: 26.25%;
+right: 29.69%;
+top: 151px;
 
+}
+.Frame5-2{
+   
+position: absolute;
+height: 234px;
+left: 0%;
+right: 0%;
+top: -52px;
 
+}
+.Frame5-2rec{
+   
+position: absolute;
+height: 136px;
+left: 0%;
+right: 0%;
+top: 69px;
 
+border-radius: 0px;
 
+}
+.Frame5-2text{
+    
+position: absolute;
+height: 217px;
+left: 0%;
+right: 0%;
+top: 48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 90px;
+/* or 138% */
+text-align: center;
+
+color: #000000;
+
+}
+.Frame5rec{
+   
+position: absolute;
+height: 2px;
+left: -88.89%;
+right: -88.89%;
+top: 161px;
+
+background: #000000;
+border-radius: 0px;
+
+}
 
 
 
