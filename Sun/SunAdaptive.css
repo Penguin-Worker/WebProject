@@ -722,7 +722,7 @@ top: 397px;
 }
 
 }
-@media (max-width: 360px) 
+@media (max-width: 380px) 
 {
     body {
         max-width: 320px;
@@ -941,14 +941,15 @@ top: 160px;
 }
 
 .Frame1PIC{
-   
-position: absolute;
-width: 320px;
-height: 311px;
-left: 0px;
-top: 0px;
+  /* image 2 */
 
-background: url(Images/image85.png);
+position: absolute;
+width: 363px;
+height: 275px;
+left: 1px;
+top: 7px;
+
+background: url(Images/image92.png)no-repeat;;
 
 }
 .Frame1rec{
