@@ -1099,15 +1099,6 @@ right: 27.99%;
 top: 397px;
 
 }
-.language-select{
-    
-position: absolute;
-height: 60px;
-left: 21.88%;
-right: 69.01%;
-top: 13px;
-
-}
 
 }
 @media (max-width: 400px) 
@@ -2516,9 +2507,8 @@ color: #000000;
  
     position: absolute;
     height: 60px;
-    left: 1.18%;
-    right: 78.96%;
-    top: 147px;
+    left: 5%;
+    top: 160px;
     
     }
 }
