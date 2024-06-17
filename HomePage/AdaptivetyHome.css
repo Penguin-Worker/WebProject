@@ -1099,9 +1099,18 @@ right: 27.99%;
 top: 397px;
 
 }
+.language-select{
+    
+position: absolute;
+height: 60px;
+left: 21.88%;
+right: 69.01%;
+top: 13px;
 
 }
-@media (max-width: 360px) 
+
+}
+@media (max-width: 400px) 
 {
     body {
         max-width: 320px;
