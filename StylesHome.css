@@ -11,6 +11,9 @@ body {
 .mobile-only-content {
     display: none; /* По умолчанию скрыт для больших экранов */
 }
+a {
+    text-decoration: none;
+}
 .BG{
   
 /* Auto layout */
