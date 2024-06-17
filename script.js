@@ -32,3 +32,22 @@ async function setLanguage(lang) {
 
 // Set the initial language
 setLanguage(currentLanguage);
+
+// scripts.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    const burgerMenu = document.getElementById('burger-menu');
+    const burgerMenuContent = document.getElementById('burger-menu-content');
+
+    burgerMenu.addEventListener('click', () => {
+        burgerMenuContent.classList.toggle('active');
+    });
+
+    // Закрытие меню при нажатии на ссылку
+    const menuLinks = document.querySelectorAll('.burger-menu-links a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            burgerMenuContent.classList.remove('active');
+        });
+    });
+});
