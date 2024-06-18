@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+
+}
+main > p{
+    margin: 50px 0;
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+#burgerlogout{
+    color:white;
+    justify-content: center;
+    text-align: center;
+    background-color: #AAB9CF;
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid  #AAB9CF;
+    border-radius: 10px;
+}
+.users{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #b7bf98;
+    border: 1px solid #212806;
+    border-radius: 40px;
+    color:white
+}
+.user{
+    width: 80%;
+    background-color: #898e73;
+    border: 1px solid #303811;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.users  p{
+    width: 100%;
+}

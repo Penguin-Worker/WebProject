@@ -7,13 +7,14 @@
     <title>Grand</title>
     <link rel="stylesheet" href="StylesHome.css">
     <link rel="stylesheet" href="AdaptivetyHome.css">
-    <script defer src="script.js"></script>
-</head>
+    <script defer src="script.js"></script> 
+    <script defer src="scriptR.js"></script> 
+    </head>
 <body>
     <header>
         <div class = "MenuHigh">        
                 <nav>
-        <div class = "mobile-only-content"id="burger-menu">
+        <div class = "mobile-only-content"id="burger-menu1">
             <div class="TABmenu" >
                 <div class="burger-menu-content" id="burger-menu-content">
                     <nav class="BG">
@@ -42,11 +43,70 @@
         <div class = "rectangle-2"></div>         
         </div> 
         
-         
+        <div class="headerL">
+            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span> </button>
+            <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
+            
+        </div> 
         
     </header>
     <main>
-        
+        <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeLoginModal">&times;</span>
+            <h2>Log in</h2>
+            <form id="loginForm">
+                <label for="loginAccountName">Account Name</label>
+                <input type="text" id="loginAccountName" required>
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" required>
+                <button type="submit">Log in</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeRegisterModal">&times;</span>
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="registerPhone">Phone Number</label>
+                <input type="text" id="registerPhone" pattern="\+375 \d{2} \d{3}-\d{2}-\d{2}" required>
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail" required>
+                <label for="registerDOB">Date of Birth</label>
+                <input type="date" id="registerDOB" required>
+                <label for="registerPasswordChoice">Password Choice</label>
+                <select id="registerPasswordChoice">
+                    <option value="manual">Set manually</option>
+                    <option value="auto">Generate automatically</option>
+                </select>
+                <div id="passwordFields">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" required>
+                    <label for="registerConfirmPassword">Confirm Password</label>
+                    <input type="password" id="registerConfirmPassword" required>
+                </div>
+                <label for="registerFirstName">First Name</label>
+                <input type="text" id="registerFirstName" required>
+                <label for="registerLastName">Last Name</label>
+                <input type="text" id="registerLastName" required>
+                <label for="registerFatherName">Father Name (optional)</label>
+                <input type="text" id="registerFatherName">
+                <label for="registerNickname">Nickname</label>
+                <input type="text" id="registerNickname" readonly>
+                <button type="button" id="generateNickname">Generate Nickname</button>
+                <label for="registerAgreement">
+                    <input type="checkbox" id="registerAgreement" required>
+                    I have read the <a href="#agreement">User Agreement</a>
+                </label>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+               
         <div class ="Frame1">                           
             <div class = "Frame1-1Rectangle"></div>
             <div class ="Frame1-png"></div>
@@ -65,8 +125,11 @@
                 <option value="en" selected>English</option>
                 <option value="ru">Русский</option>
             </select>
+            
         </div> 
         <div class="ThemeL"><button id="theme-toggleL">T</button></div>
+
+        
         <div class ="Frame2">
             <div class = "Frame2Rectangle"></div>
             <div class ="Frame2-png1"></div>

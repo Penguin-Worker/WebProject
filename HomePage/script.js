@@ -36,7 +36,7 @@ setLanguage(currentLanguage);
 // scripts.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const burgerMenu = document.getElementById('burger-menu');
+    const burgerMenu = document.getElementById('burger-menu1');
     const burgerMenuContent = document.getElementById('burger-menu-content');
 
     burgerMenu.addEventListener('click', () => {
