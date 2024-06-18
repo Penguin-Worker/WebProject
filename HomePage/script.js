@@ -69,4 +69,13 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     } else {
         localStorage.removeItem('theme');
     }
+    
+});
+document.getElementById('theme-toggleL').addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.removeItem('theme');
+    }
 });

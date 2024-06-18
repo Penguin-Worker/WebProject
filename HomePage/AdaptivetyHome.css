@@ -5,7 +5,9 @@
         overflow-x: hidden;
         margin: 0 auto;
     }
-   
+    .ThemeL{
+        display: none;
+    }
     
 
     .MenuHigh{
