@@ -6,7 +6,7 @@ let currentLanguage = 'en';
 const supportedLanguages = ['en', 'ru'];
 
 async function fetchTranslations(lang) {
-    const response = await fetch(`/locales/${lang}/strings.json`);
+    const response = await fetch(`../locales/${lang}/strings.json`);
     const translations = await response.json();
     return translations;
 }
