@@ -3155,3 +3155,16 @@ top: 120px;
 
 
 }
+body.dark-theme {
+    background-color: #434141;
+    color: white;
+}
+
+body.dark-theme header {
+    background-color: #1f1f1f;
+}
+
+body.dark-theme button {
+    background-color: #333;
+    color: white;
+}

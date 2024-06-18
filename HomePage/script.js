@@ -51,3 +51,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// script.js
+
+// Проверяем сохраненную тему при загрузке страницы
+window.addEventListener('load', () => {
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-theme');
+    }
+});
+
+// Переключение темы и сохранение предпочтений
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.removeItem('theme');
+    }
+});
