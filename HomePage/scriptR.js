@@ -1,4 +1,5 @@
 // Управление модальными окнами
+
 const loginModal = document.getElementById('loginModal');
 const registerModal = document.getElementById('registerModal');
 const openLoginModalBtn = document.getElementById('openLoginModal');
@@ -149,7 +150,61 @@ document.getElementById('loginForm').addEventListener('submit', (event) => {
     if (user) {
         alert('Login successful');
         loginModal.style.display = 'none';
+
+        // Сохраняем информацию о текущем пользователе в localStorage
+        localStorage.setItem('currentUser', JSON.stringify(user));
+
+        // После успешной авторизации проверяем, авторизован ли пользователь
+        checkAuthorization();
     } else {
         alert('Invalid account name or password');
     }
 });
+// Добавляем обработчик события для кнопки выхода
+document.getElementById('logoutButton').addEventListener('click', () => {
+    localStorage.removeItem('currentUser'); // Удаление данных о текущем пользователе
+    alert('Вы успешно вышли из аккаунта');
+    // Перенаправление на страницу входа (или на другую страницу)
+    window.location.href = 'index.html'; // Замените на соответствующий путь к странице входа
+});
+// Проверка авторизации при загрузке страницы
+document.addEventListener('DOMContentLoaded', () => {
+    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+    const logoutButton = document.getElementById('logoutButton');
+    
+    if (currentUser) {
+        // Пользователь авторизован, отображаем кнопку выхода
+        logoutButton.style.display = 'block';
+    } else {
+        // Пользователь не авторизован, скрываем кнопку выхода
+        logoutButton.style.display = 'none';
+    }
+});
+const opticalLink = document.getElementById('opticalLink');
+const sunLink = document.getElementById('sunLink');
+opticalLink.addEventListener('click', function(event) {
+    // Проверяем статус авторизации
+    if (!isLoggedIn()) {
+        event.preventDefault(); // Отменяем стандартное действие перехода по ссылке
+        alert('Please log in to access this page.');
+        // Дополнительно можно перенаправить на страницу входа
+        // window.location.href = '/login.html';
+    }
+});
+
+sunLink.addEventListener('click', function(event) {
+    // Проверяем статус авторизации
+    if (!isLoggedIn()) {
+        event.preventDefault(); // Отменяем стандартное действие перехода по ссылке
+        alert('Please log in to access this page.');
+        // Дополнительно можно перенаправить на страницу входа
+        // window.location.href = '/login.html';
+    }
+});
+function isLoggedIn() {
+    // Здесь можно проверить, есть ли какие-то данные о текущем пользователе (например, через localStorage или другой механизм)
+    // Возвращаем true, если пользователь авторизован, и false, если нет
+    // Пример:
+    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+    return currentUser !== null; // Пример простой проверки наличия текущего пользователя в localStorage
+}

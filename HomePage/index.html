@@ -26,6 +26,9 @@
                         <li><a href="#privacy"data-i18n="Privac_Policy">Privacy Policy</a></li>
                         <li><a href="#terms"data-i18n="Terms_of_Service">Terms of Service</a></li>
                         <li><button id="theme-toggle">T</button></li>
+                        <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span> </button>
+                        <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
+                        <button id="logoutButton"> <span i18n="logout" class="i18n logout">Log out</span></button>
                     </ul>
                 </nav>
                 </div>
@@ -44,9 +47,9 @@
         </div> 
         
         <div class="headerL">
-            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span> </button>
+            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span></button>
             <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
-            
+            <button id="logoutButton"> <span i18n="logout" class="i18n logout">Log out</span></button>
         </div> 
         
     </header>
@@ -199,12 +202,12 @@
         </div>
 
         <div class="Frame8" id="Shop">
-            <div class = "Frame2Rectangle"></div>
-            <div class ="Frame8img1"></div> 
-            <a href="/Optical/Optical.html" class="Frame2-1"><div class = "Frame2-1Rectangle"></div><div class="Frame2-1text" data-i18n="for_sight">FOR SIGHT</div></a>
-            <div class ="Frame8img2"></div>
-            <a href="/Sun/Sun.html" class="Frame2-2"><div class = "Frame2-2Rectangle"></div><div class="Frame2-2text"data-i18n="for_sun">FOR SUN</div></a>
-        </div>
+            <div class="Frame2Rectangle"></div>
+            <div class="Frame8img1"></div> 
+            <a href="/Optical/Optical.html" class="Frame2-1" id="opticalLink"><div class="Frame2-1Rectangle"></div><div class="Frame2-1text" data-i18n="for_sight">FOR SIGHT</div></a>
+            <div class="Frame8img2"></div>
+            <a href="/Sun/Sun.html" class="Frame2-2" id="sunLink"><div class="Frame2-2Rectangle"></div><div class="Frame2-2text" data-i18n="for_sun">FOR SUN</div></a>
+        </div>      
 
         <div class="Frame9" id="Brands">
             <div class="Frame9Rectangle"></div>

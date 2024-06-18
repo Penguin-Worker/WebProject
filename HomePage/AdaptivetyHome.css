@@ -9,7 +9,10 @@
         display: none;
     }
     
+    .headerL{
+        display: none;
 
+    }
     .MenuHigh{
        position: absolute;
 width: 768px;
