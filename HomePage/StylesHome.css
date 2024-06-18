@@ -2274,7 +2274,7 @@ top: 41px;
 
 }
 .FooterTop2text{
-
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2301,7 +2301,7 @@ top: -10px;
     
     }
     .FooterTop1text{
-     
+        white-space: nowrap;
 position: absolute;
 height: 109px;
 left: 0%;
@@ -2328,7 +2328,7 @@ top: 323px;
 
             }
             .Footerbase1text{
-           
+                white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2356,7 +2356,7 @@ top: 354px;
 
             }
             .Footerbase2text{
-          
+                white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2400,7 +2400,7 @@ right: 83.89%;
 top: 144px;
 }
 .Footerbase4text{
-              
+    white-space: nowrap;
 position: absolute;
 height: 31px;
 left: 0%;
@@ -2425,7 +2425,7 @@ right: 63.26%;
 top: 142px;
     }
     .Footerbase5text{
-   
+        white-space: nowrap;
 position: absolute;
 height: 31px;
 left: 0%;
@@ -2452,7 +2452,7 @@ top: 142px;
 
 }
 .Footerbase6text{
-          
+    white-space: nowrap;
 position: absolute;
 height: 31px;
 left: 0%;
@@ -2479,7 +2479,7 @@ top: 186px;
     
     }
     .Footerbase7text{
-     
+        white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2506,7 +2506,7 @@ top: 223px;
 
         }
         .Footerbase8text{
-        
+            white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2532,7 +2532,7 @@ top: 260px;
         
                 }
                 .Footerbase9text{
-              
+                    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2558,7 +2558,7 @@ top: 184px;
         
                 }
   .Footerbase10text{
-  
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2584,7 +2584,7 @@ top: 221px;
         
                 }
   .Footerbase11text{
-  
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2611,7 +2611,7 @@ top: 258px;
                 }
   .Footerbase12text{
   /* Fit guide */
-
+  white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2638,7 +2638,7 @@ right: 34.79%;
 top: 183px;
                 }
   .Footerbase13text{
-
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2665,7 +2665,7 @@ top: 220px;
 
                 }
   .Footerbase14text{
-
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2691,7 +2691,7 @@ right: 13.96%;
 top: 290px;
                 }
   .Footerbase15text{
- 
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2718,7 +2718,7 @@ top: 144px;
 
                 }
   .Footerbase16text{
- 
+    white-space: nowrap;
 position: absolute;
 height: 51px;
 left: 0%;
@@ -2744,7 +2744,7 @@ top: 430px;
 
                 }
   .Footerbase17text{
- 
+    white-space: nowrap;
 position: absolute;
 height: 38px;
 left: 0%;
@@ -2770,7 +2770,7 @@ right: 7.57%;
 top: 323px;
                 }
   .Footerbase18text{
- 
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2796,7 +2796,7 @@ right: 7.57%;
 top: 355px;
                 }
   .Footerbase19text{
- 
+    white-space: nowrap;
 position: absolute;
 height: 28px;
 left: 0%;
@@ -2944,7 +2944,7 @@ color: #000000;
 
 }
 .Footerdowntext{
- 
+    white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;
@@ -2970,7 +2970,7 @@ right: 35.91%;
 top: 1px;
                     }
       .Footerdown1text{
-     
+        white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;
@@ -2996,7 +2996,7 @@ top: 1px;
 
                     }
       .Footerdown2text{
-    
+        white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;
@@ -3022,7 +3022,7 @@ right: 57.58%;
 top: 1px;
                     }
       .Footerdown3text{
-  
+        white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;
@@ -3048,7 +3048,7 @@ top: 1px;
 
                     }
       .Footerdown4text{
-  
+        white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;
@@ -3075,7 +3075,7 @@ top: 1px;
 
                     }
       .Footerdown5text{
-  
+        white-space: nowrap;
 position: absolute;
 height: 19px;
 left: 0%;

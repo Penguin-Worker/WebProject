@@ -9,6 +9,9 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
+}
 .mobile-only-content {
     display: none; /* По умолчанию скрыт для больших экранов */
 }
@@ -499,7 +502,7 @@ top: 832px;
         
         }
         .Frame2-2text{
-        
+        white-space: nowrap;
     position: absolute;
     height: 109px;
     left: 0%;
@@ -1024,7 +1027,7 @@ top: -29px;
 
 }
 .Frame5-2text{
-   
+    white-space: nowrap;
 position: absolute;
 height: 109px;
 left: 0%;
@@ -1206,7 +1209,7 @@ top: 2041.36px;
             
             }
             .FooterTop2text{
-               
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1233,7 +1236,7 @@ top: 2041.36px;
                 
                 }
                 .FooterTop1text{
-                 
+                    white-space: nowrap;
             position: absolute;
             height: 109px;
             left: 0%;
@@ -1260,7 +1263,7 @@ top: 2041.36px;
             
                         }
                         .Footerbase1text{
-                       
+                            white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1288,7 +1291,7 @@ top: 2041.36px;
             
                         }
                         .Footerbase2text{
-                      
+                            white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1332,7 +1335,7 @@ top: 2041.36px;
             top: 144px;
             }
             .Footerbase4text{
-                          
+                white-space: nowrap;
             position: absolute;
             height: 31px;
             left: 0%;
@@ -1357,7 +1360,7 @@ top: 2041.36px;
             top: 142px;
                 }
                 .Footerbase5text{
-                
+                    white-space: nowrap;
             position: absolute;
             height: 31px;
             left: 0%;
@@ -1383,7 +1386,7 @@ top: 2041.36px;
             
             }
             .Footerbase6text{
-                      
+                white-space: nowrap;
             position: absolute;
             height: 31px;
             left: 0%;
@@ -1410,7 +1413,7 @@ top: 2041.36px;
                 
                 }
                 .Footerbase7text{
-                 
+                    white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1437,7 +1440,7 @@ top: 2041.36px;
             
                     }
                     .Footerbase8text{
-                    
+                        white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1463,7 +1466,7 @@ top: 2041.36px;
                     
                             }
                             .Footerbase9text{
-                          
+                                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1489,7 +1492,7 @@ top: 2041.36px;
                     
                             }
               .Footerbase10text{
-              
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1515,7 +1518,7 @@ top: 2041.36px;
                     
                             }
               .Footerbase11text{
-              
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1540,7 +1543,7 @@ top: 2041.36px;
             top: 258px;
                             }
               .Footerbase12text{
-              
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1565,7 +1568,7 @@ top: 2041.36px;
             top: 183px;
                             }
               .Footerbase13text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1591,7 +1594,7 @@ top: 2041.36px;
             
                             }
               .Footerbase14text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1616,7 +1619,7 @@ top: 2041.36px;
             top: 290px;
                             }
               .Footerbase15text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1642,7 +1645,7 @@ top: 2041.36px;
             
                             }
               .Footerbase16text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 51px;
             left: 0%;
@@ -1668,7 +1671,7 @@ top: 2041.36px;
             
                             }
               .Footerbase17text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 38px;
             left: 0%;
@@ -1693,7 +1696,7 @@ top: 2041.36px;
             top: 323px;
                             }
               .Footerbase18text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1719,7 +1722,7 @@ top: 2041.36px;
             top: 355px;
                             }
               .Footerbase19text{
-             
+                white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
@@ -1867,7 +1870,7 @@ top: 2041.36px;
             
             }
             .Footerdowntext{
-               
+                white-space: nowrap;
             position: absolute;
             height: 19px;
             left: 0%;
@@ -1906,7 +1909,7 @@ top: 2041.36px;
             font-size: 12px;
             line-height: 19px;
             /* identical to box height, or 155% */
-            
+            white-space: nowrap;
             color: #000000;
                              }
                              .Footerdown2{
@@ -1932,7 +1935,7 @@ top: 2041.36px;
             font-size: 11px;
             line-height: 19px;
             /* identical to box height, or 169% */
-            
+            white-space: nowrap;
             color: #000000;
                              }
                              .Footerdown3{
@@ -1957,7 +1960,7 @@ top: 2041.36px;
             font-size: 11px;
             line-height: 19px;
             /* identical to box height, or 169% */
-            
+            white-space: nowrap;
             color: #000000;
                              }
                              .Footerdown4{
@@ -1975,7 +1978,7 @@ top: 2041.36px;
             left: 0%;
             right: 0%;
             top: -2px;
-            
+            white-space: nowrap;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -2002,7 +2005,7 @@ top: 2041.36px;
             left: 0%;
             right: 0%;
             top: -2px;
-            
+            white-space: nowrap;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
