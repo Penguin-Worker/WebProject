@@ -5,6 +5,11 @@
         overflow-x: hidden;
         margin: 0 auto;
     }
+    .ThemeL{
+        display: none;
+    }
+    
+
     .MenuHigh{
        position: absolute;
 width: 768px;
@@ -278,7 +283,6 @@ border: 2px solid #000000;
 border-radius: 0px;
 
 }
-
 .Frame1{
     
 position: absolute;
@@ -729,6 +733,7 @@ top: 397px;
         margin: 0 auto;
         overflow-x: hidden;
     }
+
     .burger-menu-content {
         
         display: none;
@@ -741,6 +746,7 @@ top: 397px;
         border: 1px solid #ccc;
         z-index: 1000;
     }
+    
 .MenuHigh{
     position: absolute;
 
@@ -753,15 +759,15 @@ height: 167px;
 left: 1px;
 top: 0px;
 }
-.mobile-only-content {
-    cursor: pointer;
+    .mobile-only-content {
+        cursor: pointer;
 position: absolute;
 height: 80px;
 left: 0%;
 right: 83.75%;
 top: 79px;
 
-}
+    }
 .rectangleM4{
     display: none; 
     box-sizing: border-box;
