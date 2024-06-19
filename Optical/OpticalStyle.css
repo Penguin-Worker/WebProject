@@ -7,10 +7,12 @@ body {
     height: 100vh;
     background-color: #FFFFFF; /* Фон страницы */
     margin: 0 auto;
+    cursor: default;
 }
 html {
     scroll-behavior: smooth;
 }
+
 .mobile-only-content {
     display: none; /* По умолчанию скрыт для больших экранов */
 }
@@ -2161,3 +2163,55 @@ top: 2041.36px;
             top: 12.5%;
             bottom: 12.51%;
                 }
+                .language-select{
+
+                    position: absolute;
+                    width: 70px;
+                    height: 60px;
+                    left: 5%;
+                    top: 120px;
+                    
+                    
+                    }
+                    .language-select{
+                    
+                        position: absolute;
+                        width: 70px;
+                        height: 60px;
+                        left: 5%;
+                        top: 120px;
+                        
+                        
+                        }
+                        .ThemeL{
+                           
+                        position: absolute;
+                        width: 70px;
+                        height: 60px;
+                        left: 12%;
+                        top: 120px;
+                        
+                        }
+                        body.dark-theme {
+                            background-color: #434141;
+                            color: white;
+                        }
+                        
+                        body.dark-theme header {
+                            background-color: #1f1f1f;
+                        }
+                        
+                        body.dark-theme button {
+                            background-color: #333;
+                            color: white;
+                        }
+                    
+                        button:hover{
+                            background-color: #2980b9;
+                        }
+                        button{
+                            border: none;
+                            outline: none;
+                            transition: background-color 0.3s ease, color 0.3s ease;
+                            cursor: pointer;
+                        }

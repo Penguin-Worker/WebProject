@@ -13,9 +13,9 @@
     <header>
         <div class = "MenuHigh">        
                 <nav>
-        <div class = "mobile-only-content"id="burger-menuO">
+        <div class = "mobile-only-content"id="burger-menu1">
             <div class="TABmenu" >
-                <div class="burger-menu-content" id="burger-menu-contentO">
+                <div class="burger-menu-content" id="burger-menu-content">
                     <nav class="BG">
                     <ul class="burger-menu-links">
                         <li><a href="../HomePage/index.html"data-i18n="home">Home</a></li>
@@ -24,7 +24,7 @@
                         <li><a href="../Custom/Custom.html"data-i18n="about">About</a></li>
                         <li><a href="#privacy"data-i18n="Privac_Policy">Privacy Policy</a></li>
                         <li><a href="#terms"data-i18n="Terms_of_Service">Terms of Service</a></li>
-                        <li><button id="theme-toggle">T</button></li>
+                        <li><button id="theme-toggle">T</button></li>                         
                     </ul>
                 </nav>
                 </div>
@@ -42,7 +42,11 @@
         <div class = "rectangle-2"></div>         
         </div> 
         
-         
+        <div class="headerL">
+            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span></button>
+            <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
+            <button id="logoutButton"> <span i18n="logout" class="i18n logout">Log out</span></button>
+        </div> 
         
     </header>
     <main>
@@ -51,7 +55,15 @@
         <div class="Frame1-1"><div class="Frame1-1rec"></div><div class="Frame1-1text">SEE THE COLLECTION</div></div>
         <div class="Frame1-2"><div class="Frame1-2text">Optical: Welcome the vision!</div></div>
     </div>
-    
+    <div class="language-select">
+        <select id="languageSelect">
+            <option value="en" selected>English</option>
+            <option value="ru">Русский</option>
+        </select>
+        
+    </div> 
+    <div class="ThemeL"><button id="theme-toggleL">T</button></div>
+
         <div class="Frame2">
             <div class = "Frame2Rectangle2"></div>
             <div class = "Frame2Rectangle"></div>

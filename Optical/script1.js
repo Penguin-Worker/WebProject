@@ -6,7 +6,7 @@ let currentLanguage = 'en';
 const supportedLanguages = ['en', 'ru'];
 
 async function fetchTranslations(lang) {
-    const response = await fetch(`/locales/${lang}/strings.json`);
+    const response = await fetch(`../locales/${lang}/strings.json`);
     const translations = await response.json();
     return translations;
 }
@@ -36,8 +36,8 @@ setLanguage(currentLanguage);
 // scripts.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const burgerMenu = document.getElementById('burger-menuO');
-    const burgerMenuContent = document.getElementById('burger-menu-contentO');
+    const burgerMenu = document.getElementById('burger-menu1');
+    const burgerMenuContent = document.getElementById('burger-menu-content');
 
     burgerMenu.addEventListener('click', () => {
         burgerMenuContent.classList.toggle('active');
