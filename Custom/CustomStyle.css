@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.Frame1Button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Frame1Button:hover {
+    background-color: #0056b3;
+}
+
+.Frame1ButtonText {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -8,10 +27,103 @@ body {
     background-color: #FFFFFF; /* Фон страницы */
     margin: 0 auto;
 overflow-x: hidden;
+cursor: default;
+}html {
+    scroll-behavior: smooth;
 }
+
 .mobile-only-content {
     display: none; /* По умолчанию скрыт для больших экранов */
 }
+a {
+    text-decoration: none;
+}
+.BG{
+  
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 240px;
+left: 0px;
+top: 0px;
+
+background: #bab2b2;
+
+}
+.TABmenu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    margin: 0 auto;
+}
+.TABmenu div {
+    
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+.mobile-only-content {
+    position: relative;
+}
+
+.burger-menu-content {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -110px;
+    width: 300px;
+    height: 440px;
+    background-color: gray;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.burger-menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 1000%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger-menu-links li {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.burger-menu-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.burger-menu-links a:hover {
+    background-color: #555;
+}
+
+.burger-menu-content.active {
+    display: flex;
+}
+
+
+
 .MenuHigh{
     position: absolute;
     width: 1440;
@@ -312,7 +424,6 @@ top: 0px;
 border-radius: 30px;
 
              }
-
 .Frame1{
     max-width: 1440px;
     width: 100%;
@@ -1885,3 +1996,45 @@ color: #000000;
             top: 12.5%;
             bottom: 12.51%;
                 }
+                .language-select{
+
+                    position: absolute;
+                    width: 70px;
+                    height: 60px;
+                    left: 5%;
+                    top: 120px;
+                    
+                    
+                    }
+                    .ThemeL{
+                       
+                    position: absolute;
+                    width: 70px;
+                    height: 60px;
+                    left: 12%;
+                    top: 120px;
+                    
+                    }
+                    body.dark-theme {
+                        background-color: #434141;
+                        color: white;
+                    }
+                    
+                    body.dark-theme header {
+                        background-color: #1f1f1f;
+                    }
+                    
+                    body.dark-theme button {
+                        background-color: #333;
+                        color: white;
+                    }
+                
+                    button:hover{
+                        background-color: #2980b9;
+                    }
+                    button{
+                        border: none;
+                        outline: none;
+                        transition: background-color 0.3s ease, color 0.3s ease;
+                        cursor: pointer;
+                    }
