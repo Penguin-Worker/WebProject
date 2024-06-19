@@ -2038,3 +2038,12 @@ color: #000000;
                         transition: background-color 0.3s ease, color 0.3s ease;
                         cursor: pointer;
                     }
+.find-us-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Стили при наведении на ссылку */
+        .find-us-link:hover {
+            text-decoration: underline;
+        }
