@@ -1,5 +1,62 @@
 @media (max-width: 800px
 ) {
+    .slider-container {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        /* Примерная высота контейнера */
+    }
+    
+    .slider-track {
+        display: flex;
+        flex-direction: column; /* Изменяем направление на вертикальное */
+        position: relative;
+        animation: slideDown 10s linear infinite; /* Анимация для движения слайдов */
+    }
+    
+    .slide {
+        height: 100%;
+        opacity: 0; /* Скрыть все слайды по умолчанию */
+        transition: opacity 0.5s ease; /* Плавное появление слайдов */
+    }
+    
+    @keyframes slideDown {
+        0% {
+            transform: translateY(0); /* Начальное положение - слайды не сдвинуты */
+        }
+        25% {
+            transform: translateY(-100%); /* Сдвиг вверх до края */
+        }
+        50% {
+            transform: translateY(-100%); /* Слайды касаются верхнего края */
+        }
+        75% {
+            transform: translateY(0); /* Сдвиг вниз, возвращение на начальное положение */
+        }
+        100% {
+            transform: translateY(0); /* Возвращение в начальное положение */
+        }
+    }
+    
+    /* Стили для каждого слайда */
+    .Frame4-1, .Frame4-2, .Frame4-3 {
+        display: none;
+    }
+    
+    .Frame4-1.active, .Frame4-2.active, .Frame4-3.active {
+        display: block;
+    }
+    
+    .Frame4-1, .Frame4-2, .Frame4-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+    }
+
+
     body {
         max-width: 768px;
         overflow-x: hidden;

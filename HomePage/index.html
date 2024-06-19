@@ -7,8 +7,10 @@
     <title>Grand</title>
     <link rel="stylesheet" href="StylesHome.css">
     <link rel="stylesheet" href="AdaptivetyHome.css">
+    
     <script defer src="script.js"></script> 
     <script defer src="scriptR.js"></script> 
+    
     </head>
 <body>
     <header>
@@ -35,11 +37,11 @@
                 <div class = "rectangleM1"></div><div class = "rectangleM2"></div><div class = "rectangleM3"></div></div><div class = "rectangleM4"></div><div class = "rectangleM5"></div>
         </div>
         <div class = "Menu1"><div class = "rectangle-9"></div> <a href="../Custom/Custom.html" class ="Menu1text" data-i18n="customer_care">Customer care</a></div>
-        <div class = "Menu2"><div class = "rectangle-4"></div><a href="../HomePage/index.html" class ="Menu2text" data-i18n="account">Account</a> </div>
+        <div class = "Menu2"><div class = "rectangle-4"></div><a href="../Privacy/privacy.html" class ="Menu2text" data-i18n="account">Account</a> </div>
         <div class = "Menu3"><div class = "rectangle-5"></div><a href="../Optical/Optical.html" class ="Menu3text" data-i18n="optical">Optical</a> </div>
         <div class = "Menu4"><div class = "rectangle-6"></div><a href="../HomePage/index.html" class ="Menu4text" >yes.</a> </div>
         <div class = "Menu5"><div class = "rectangle-7"></div> <a href="../Sun/Sun.html" class ="Menu5text" data-i18n="sun">Sun</a></div>
-        <div class = "Menu6"><div class = "rectangle-8"></div><a href="../Privacy/privacy.html" class ="Menu6text" data-i18n="fit_guide">Fit guide</a></div>
+        <div class = "Menu6"><div class = "rectangle-8"></div><a href="../Custom/Custom.html" class ="Menu6text" data-i18n="fit_guide">Fit guide</a></div>
         
     </nav>      
         <div class = "rectangle-1"></div>     
@@ -47,9 +49,9 @@
         </div> 
         
         <div class="headerL">
-            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span></button>
-            <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
-            <button id="logoutButton"> <span i18n="logout" class="i18n logout">Log out</span></button>
+            <button id="openRegisterModal1"><span i18n="signup" class="i18n signup">Sign up</span></button>
+            <button id="openLoginModal1"> <span i18n="login" class="i18n login">Log in</span></button>
+            <button id="logoutButton1"> <span i18n="logout" class="i18n logout">Log out</span></button>
         </div> 
         
     </header>
@@ -147,25 +149,60 @@
             <a href="#Shop" class ="Frame3-1"><div class ="Frame3-1text" data-i18n="see_the_collection">SEE THE COLLECTION</div><div class = "Frame3-1Rectangle"></div></a>
             <div class ="Frame3-2"><div class ="Frame3-2text" data-i18n="new_in_stock">New in stock</div><div class = "Frame3-2Rectangle"></div></div>
         </div>
-
-        <div class ="Frame4">
-            <div class="Frame4-1">
-                <div class="Frame4-1-1"><div class="Frame4-1-1text"data-i18n="2_colours">2 colours</div><div class="Frame4-1-1text2">Louisa Nylon</div>
-                    <div class="Frame4-1-1-1"><div class="Frame4-1-1-1text">315</div><div class="Frame4-1-1-1text2">$</div></div></div>
-                <div class="Frame4-1-2"><div class ="Frame4-1-2pic2"></div><div class ="Frame4-1-2pic1"></div></div>
+<div class="Frame4">
+    <div class="slider-container">
+        <div class="slider-track">
+            <div class="slide Frame4-1">
+                <!-- Контент Frame4-1 -->
+                <div class="Frame4-1-1">
+                    <div class="Frame4-1-1text" data-i18n="2_colours">2 colours</div>
+                    <div class="Frame4-1-1text2">Louisa Nylon</div>
+                    <div class="Frame4-1-1-1">
+                        <div class="Frame4-1-1-1text">315</div>
+                        <div class="Frame4-1-1-1text2">$</div>
+                    </div>
+                </div>
+                <div class="Frame4-1-2">
+                    <div class="Frame4-1-2pic2"></div>
+                    <div class="Frame4-1-2pic1"></div>
+                </div>
             </div>
-            <div class="Frame4-2">
-                <div class="Frame4-2-1"><div class="Frame4-2-1text" data-i18n="2_colours">2 colours</div><div class="Frame4-2-1text2">Hurst</div>
-                    <div class="Frame4-2-1-1"><div class="Frame4-2-1-1text">285</div><div class="Frame4-2-1-1text2">$</div></div></div>
-                <div class="Frame4-2-2"><div class ="Frame4-2-2pic2"></div><div class ="Frame4-2-2pic1"></div></div>
+            
+            <div class="slide Frame4-2">
+                <!-- Контент Frame4-2 -->
+                <div class="Frame4-2-1">
+                    <div class="Frame4-2-1text" data-i18n="2_colours">2 colours</div>
+                    <div class="Frame4-2-1text2">Hurst</div>
+                    <div class="Frame4-2-1-1">
+                        <div class="Frame4-2-1-1text">285</div>
+                        <div class="Frame4-2-1-1text2">$</div>
+                    </div>
+                </div>
+                <div class="Frame4-2-2">
+                    <div class="Frame4-2-2pic2"></div>
+                    <div class="Frame4-2-2pic1"></div>
+                </div>
             </div>
-            <div class="Frame4-3">
-                <div class="Frame4-3-1"><div class="Frame4-3-1text" data-i18n="2_colours">2 colours</div><div class="Frame4-3-1text2">Noemi</div>
-                    <div class="Frame4-3-1-1"><div class="Frame4-3-1-1text">95</div><div class="Frame4-3-1-1text2">$</div></div></div>
-                <div class="Frame4-3-2"><div class ="Frame4-3-2pic2"></div><div class ="Frame4-3-2pic1"></div></div>
+            <div class="slide Frame4-3">
+                <!-- Контент Frame4-3 -->
+                <div class="Frame4-3-1">
+                    <div class="Frame4-3-1text" data-i18n="2_colours">2 colours</div>
+                    <div class="Frame4-3-1text2">Noemi</div>
+                    <div class="Frame4-3-1-1">
+                        <div class="Frame4-3-1-1text">95</div>
+                        <div class="Frame4-3-1-1text2">$</div>
+                    </div>
+                </div>
+                <div class="Frame4-3-2">
+                    <div class="Frame4-3-2pic2"></div>
+                    <div class="Frame4-3-2pic1"></div>
+                </div>
             </div>
+            
         </div>
-
+    </div>
+    </div>
+    
         <div class="Frame5">
             <div class="Frame5Generalrectangle"></div>
             <div class="Frame5Rectangle1"></div>
@@ -199,6 +236,7 @@
                     <div class="Frame4-3-1-1"><div class="Frame4-3-1-1text">115</div><div class="Frame4-3-1-1text2">$</div></div></div>
                 <div class="Frame4-3-2"><div class ="Frame7Img32"></div><div class ="Frame7Img31"></div></div>
             </div>
+            
         </div>
 
         <div class="Frame8" id="Shop">

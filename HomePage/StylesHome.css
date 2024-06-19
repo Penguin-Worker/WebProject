@@ -3274,3 +3274,67 @@ button{
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
+
+.slider-container {
+    overflow: hidden;
+    width: 95%;
+    position: relative;
+    /* Примерная высота контейнера */
+}
+
+.slider-track {
+    display: flex;
+    position: relative;
+    animation: slideLeft 10s linear infinite; /* Анимация для движения слайдов */
+}
+.slide {
+    flex: 0 0 33.333%; /* Ширина каждого слайда */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0); /* Начальное положение - слайды не сдвинуты */
+    }
+    25% {
+        transform: translateX(-90%); /* Сдвиг влево до края */
+    }
+    50% {
+        transform: translateX(-90%); /* Слайды касаются края */
+    }
+    75% {
+        transform: translateX(0); /* Сдвиг вправо, возвращение на начальное положение */
+    }
+    100% {
+        transform: translateX(0); /* Возвращение в начальное положение */
+    }
+}
+.Frame4-1, .Frame4-2, .Frame4-3 {
+    display: none;
+}
+
+.Frame4-1.active, .Frame4-2.active, .Frame4-3.active {
+    display: block;
+}
+.Frame4-1, .Frame4-2, .Frame4-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 900px;
+    
+    height: 100%;
+    opacity: 0; /* Скрыть все слайды по умолчанию */
+    transition: opacity 0.5s ease; /* Плавное появление слайдов */
+}
+
+.slide.active {
+    opacity: 1; /* Показать активный слайд */
+}
