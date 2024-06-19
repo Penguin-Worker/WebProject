@@ -12,10 +12,24 @@
 <body>
     <header>
         <div class = "MenuHigh">        
-            <div class = "rectangle-3"></div>   
-            <div class = "rectangleM6"></div>  
-    <nav>
-        <div class = "mobile-only-content"><div class="TABmenu"><div class = "rectangleM1"></div><div class = "rectangleM2"></div><div class = "rectangleM3"></div></div><div class = "rectangleM4"></div><div class = "rectangleM5"></div></div>
+                <nav>
+        <div class = "mobile-only-content"id="burger-menu1">
+            <div class="TABmenu" >
+                <div class="burger-menu-content" id="burger-menu-content">
+                    <nav class="BG">
+                    <ul class="burger-menu-links">
+                        <li><a href="../HomePage/index.html"data-i18n="home">Home</a></li>
+                        <li><a href="#account"data-i18n="account">Account</a></li>
+                        <li><a href="#support"data-i18n="support">Support</a></li>
+                        <li><a href="../Custom/Custom.html"data-i18n="about">About</a></li>
+                        <li><a href="#privacy"data-i18n="Privac_Policy">Privacy Policy</a></li>
+                        <li><a href="#terms"data-i18n="Terms_of_Service">Terms of Service</a></li>
+                        <li><button id="theme-toggle">T</button></li>                         
+                    </ul>
+                </nav>
+                </div>
+                <div class = "rectangleM1"></div><div class = "rectangleM2"></div><div class = "rectangleM3"></div></div><div class = "rectangleM4"></div><div class = "rectangleM5"></div>
+        </div>
         <div class = "Menu1"><div class = "rectangle-9"></div> <a href="../Custom/Custom.html" class ="Menu1text" data-i18n="customer_care">Customer care</a></div>
         <div class = "Menu2"><div class = "rectangle-4"></div><div class ="Menu2text" data-i18n="account">Account</div> </div>
         <div class = "Menu3"><div class = "rectangle-5"></div><a href="../Optical/Optical.html" class ="Menu3text" data-i18n="optical">Optical</a> </div>
@@ -27,6 +41,13 @@
         <div class = "rectangle-1"></div>     
         <div class = "rectangle-2"></div>         
         </div> 
+        
+        <div class="headerL">
+            <button id="openRegisterModal"><span i18n="signup" class="i18n signup">Sign up</span></button>
+            <button id="openLoginModal"> <span i18n="login" class="i18n login">Log in</span></button>
+            <button id="logoutButton"> <span i18n="logout" class="i18n logout">Log out</span></button>
+        </div> 
+        
     </header>
     <main>
         <div class="Frame1">
