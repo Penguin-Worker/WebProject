@@ -312,3 +312,6 @@ document.addEventListener('DOMContentLoaded', function () {
         showRandomSlide();
     }, 2000); // Интервал в миллисекундах (например, каждые 3 секунды)
 });
+function callPhoneNumber(phoneNumber) {
+    window.location.href = 'tel:' + phoneNumber;
+}
