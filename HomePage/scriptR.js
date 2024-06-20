@@ -6,12 +6,18 @@ const openLoginModalBtn = document.getElementById('openLoginModal');
 const openRegisterModalBtn = document.getElementById('openRegisterModal');
 const closeLoginModalBtn = document.getElementById('closeLoginModal');
 const closeRegisterModalBtn = document.getElementById('closeRegisterModal');
-
+const openModalGrandR=document.getElementById('openRegisterModal1');
+const openModalGrandL=document.getElementById('openLoginModal1');
 openLoginModalBtn.onclick = () => {
     loginModal.style.display = 'block';
 };
-
+openModalGrandL.onclick = () => {
+    loginModal.style.display = 'block';
+};
 openRegisterModalBtn.onclick = () => {
+    registerModal.style.display = 'block';
+};
+openModalGrandR.onclick = () => {
     registerModal.style.display = 'block';
 };
 
@@ -167,17 +173,25 @@ document.getElementById('logoutButton').addEventListener('click', () => {
     // Перенаправление на страницу входа (или на другую страницу)
     window.location.href = 'index.html'; // Замените на соответствующий путь к странице входа
 });
+document.getElementById('logoutButton1').addEventListener('click', () => {
+    localStorage.removeItem('currentUser'); // Удаление данных о текущем пользователе
+    alert('Вы успешно вышли из аккаунта');
+    // Перенаправление на страницу входа (или на другую страницу)
+    window.location.href = 'index.html'; // Замените на соответствующий путь к странице входа
+});
 // Проверка авторизации при загрузке страницы
 document.addEventListener('DOMContentLoaded', () => {
     const currentUser = JSON.parse(localStorage.getItem('currentUser'));
     const logoutButton = document.getElementById('logoutButton');
-    
+    const logoutButton1 = document.getElementById('logoutButton1');
     if (currentUser) {
         // Пользователь авторизован, отображаем кнопку выхода
         logoutButton.style.display = 'block';
+        logoutButton1.style.display = 'block';
     } else {
         // Пользователь не авторизован, скрываем кнопку выхода
         logoutButton.style.display = 'none';
+        logoutButton1.style.display = 'none';
     }
 });
 const opticalLink = document.getElementById('opticalLink');
