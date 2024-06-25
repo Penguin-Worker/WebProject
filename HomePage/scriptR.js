@@ -61,6 +61,69 @@ generateNicknameBtn.onclick = () => {
     }
 };
 
+// Генерация пароля
+document.addEventListener('DOMContentLoaded', function () {
+    const registerPasswordChoice = document.getElementById('registerPasswordChoice');
+    const passwordFields = document.getElementById('passwordFields');
+    const generatePasswordButton = document.getElementById('generatePasswordButton');
+    const generatedPasswordContainer = document.getElementById('generatedPasswordContainer');
+    const generatedPassword = document.getElementById('generatedPassword');
+    const registerPassword = document.getElementById('registerPassword');
+    const registerConfirmPassword = document.getElementById('registerConfirmPassword');
+
+    registerPasswordChoice.addEventListener('change', function () {
+        if (this.value === 'auto') {
+            passwordFields.style.display = 'none';
+            generatedPasswordContainer.style.display = 'block';
+            generatePasswordButton.style.display = 'block';
+        } else {
+            passwordFields.style.display = 'block';
+            generatedPasswordContainer.style.display = 'none';
+            generatePasswordButton.style.display = 'none';
+        }
+    });
+
+    function generatePassword() {
+        const length = 12;
+        const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
+        let password;
+        do {
+            password = Array(length).fill(charset).map(x => x[Math.floor(Math.random() * x.length)]).join('');
+        } while (!validatePassword(password));
+        return password;
+    }
+
+    function validatePassword(password) {
+        const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,20}$/;
+        const commonPasswords = ["123456", "password", "123456789", "12345678", "12345", "1234567", "qwerty"];
+        return passwordPattern.test(password) && !commonPasswords.includes(password);
+    }
+
+    generatePasswordButton.addEventListener('click', function () {
+        const newPassword = generatePassword();
+        generatedPassword.value = newPassword;
+        registerPassword.value = newPassword;
+        registerConfirmPassword.value = newPassword;
+        passwordFields.style.display = 'none';
+        generatedPasswordContainer.style.display = 'block';
+    });
+
+    // Initialize the password fields visibility based on the initial selection
+    if (registerPasswordChoice.value === 'auto') {
+        passwordFields.style.display = 'none';
+        generatedPasswordContainer.style.display = 'block';
+        generatePasswordButton.style.display = 'block';
+    } else {
+        passwordFields.style.display = 'block';
+        generatedPasswordContainer.style.display = 'none';
+        generatePasswordButton.style.display = 'none';
+    }
+});
+
+
+
+
+
 // Валидация номера телефона
 function validatePhoneNumber(phone) {
     const phonePattern = /^\+375 \d{2} \d{3}-\d{2}-\d{2}$/;
@@ -122,6 +185,7 @@ document.getElementById('registerForm').addEventListener('submit', (event) => {
         }
     }
 
+    
     if (!agreement) {
         alert('You must read and accept the User Agreement.');
         return;
@@ -131,7 +195,7 @@ document.getElementById('registerForm').addEventListener('submit', (event) => {
         phone,
         email,
         dob,
-        password: passwordChoice === 'manual' ? password : generatePassword(),
+        password,
         firstName,
         lastName,
         fatherName,
