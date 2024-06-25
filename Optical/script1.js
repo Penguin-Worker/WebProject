@@ -1,9 +1,11 @@
 document.getElementById('languageSelect').addEventListener('change', function() {
-    setLanguage(this.value);
+    const selectedLanguage = this.value;
+    setLanguage(selectedLanguage);
+    saveLanguagePreference(selectedLanguage);
 });
 
-let currentLanguage = 'en';
 const supportedLanguages = ['en', 'ru'];
+let currentLanguage = getSavedLanguage() || 'en';
 
 async function fetchTranslations(lang) {
     const response = await fetch(`../locales/${lang}/strings.json`);
@@ -30,8 +32,24 @@ async function setLanguage(lang) {
     applyTranslations(translations);
 }
 
-// Set the initial language
-setLanguage(currentLanguage);
+function saveLanguagePreference(lang) {
+    localStorage.setItem('preferredLanguage', lang);
+}
+
+function getSavedLanguage() {
+    return localStorage.getItem('preferredLanguage');
+}
+
+// Set the initial language on page load
+document.addEventListener('DOMContentLoaded', () => {
+    const savedLanguage = getSavedLanguage();
+    if (savedLanguage && supportedLanguages.includes(savedLanguage)) {
+        currentLanguage = savedLanguage;
+        document.getElementById('languageSelect').value = savedLanguage;
+    }
+    setLanguage(currentLanguage);
+});
+
 
 // scripts.js
 
