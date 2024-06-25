@@ -101,6 +101,7 @@ document.getElementById('registerForm').addEventListener('submit', (event) => {
 
     if (!validatePhoneNumber(phone)) {
         alert('Invalid phone number. It should be in format +375 XX XXX-XX-XX');
+        
         return;
     }
 
