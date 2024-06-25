@@ -2573,4 +2573,11 @@ color: #000000;
     top: 160px;
     
     }
+    .Frame1-2Rectangle:hover{
+        transform: scale(1.1);
+        
+        border:#000000;
+        border: 2px solid #000;
+        transform: rotate(90deg);
+     }
 }

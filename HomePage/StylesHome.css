@@ -469,7 +469,7 @@ height: 131px;
 left: 0%;
 right: 6.05%;
 top: 0px;
-
+cursor: default;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -518,7 +518,7 @@ width: 179px;
 height: 28px;
 left: calc(50% - 179px/2 + 0.5px);
 top: 14px;
-
+cursor: default;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -528,10 +528,11 @@ line-height: 28px;
 text-align: center;
 
 color: #000000;
-    
+transition: transform 0.3s ease;
      }
+     
 .Frame1-2Rectangle{
-   
+    transition: transform 0.3s ease;
 position: absolute;
 height: 55px;
 left: 0%;
@@ -541,6 +542,12 @@ top: 0px;
 border-radius: 30px;
 
 }
+.Frame1-2Rectangle:hover{
+    transform: scale(1.1);
+    
+    border:#000000;
+    border: 2px solid #000;
+ }
 .Frame1-3{
     
 position: absolute;
@@ -627,6 +634,7 @@ right: 50%;
 top: 510px;
 
 }
+
 .Frame2-1Rectangle{
         
 position: absolute;
@@ -634,10 +642,13 @@ height: 110px;
 left: 0%;
 right: 0%;
 top: 0px;
-
+transition: background-color 0.7s ease;
 background: #FFBCBC;
 border-radius: 0px;
     
+    }
+    .Frame2-1Rectangle:hover{
+        background-color: #ca6666;
     }
 .Frame2-1text{
     
@@ -646,7 +657,7 @@ width: 121px;
 height: 28px;
 left: calc(50% - 121px/2 + 0.5px);
 top: 41px;
-
+transition: transform 0.3s ease;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -686,10 +697,19 @@ height: 110px;
 left: 0%;
 right: 0%;
 top: 0px;
-
+transition: background-color 0.3s ease;
 background: #FFBCBC;
 border-radius: 0px;
 
+        }
+        .Frame2-2Rectangle:hover{
+            background-color: #ca6666;
+        }
+        .Frame2-2text:hover{
+            transform: scale(1.1);
+        }
+        .Frame2-1text:hover{
+            transform: scale(1.1);
         }
     .Frame2-2text{
     
@@ -698,7 +718,7 @@ width: 91px;
 height: 28px;
 left: calc(50% - 91px/2 + 0.5px);
 top: 41px;
-
+transition: transform 0.3s ease;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -778,7 +798,7 @@ height: 55px;
 left: 81.88%;
 right: 4.24%;
 top: 17px;
-
+transition: transform 0.3s ease;
 }
 .Frame3-1text{
        
@@ -787,7 +807,7 @@ width: 179px;
 height: 28px;
 left: calc(50% - 179px/2 + 0.5px);
 top: 14px;
-
+transition: transform 0.3s ease;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -798,6 +818,9 @@ text-align: center;
 
 color: #000000;
     
+ }
+ .Frame3-1:hover{
+    transform: scale(1.1);
  }
  .Frame3-1Rectangle{
    
@@ -850,6 +873,7 @@ border-radius: 0px;
 
      }
 .Frame4{
+    cursor: default;
     margin: 0 auto;
 position: absolute;
 height: 367.36px;
@@ -1268,6 +1292,7 @@ color: #000000;
                     }
             
 .Frame5{
+    cursor: default;
     margin: 0 auto; 
 position: absolute;
 height: 620px;
@@ -1337,12 +1362,15 @@ font-size: 18px;
 line-height: 28px;
 /* identical to box height, or 155% */
 text-align: center;
-
+transition: transform 0.3s ease;
 color: #000000;
 
 }
+.Frame5-2text:hover{
+    transform: scale(1.1);
+}
 .Frame5-2Rectangle{
-    
+    transition: background-color 0.7s ease;
 position: absolute;
 height: 120px;
 left: 0%;
@@ -1352,6 +1380,7 @@ top: 0px;
 border-radius: 0px;
 
 }
+
 .Frame5-3{
    
 position: absolute;
@@ -1397,9 +1426,13 @@ height: 120px;
 left: 50%;
 right: 29.86%;
 top: 500px;
-
+transition: transform 0.3s ease;
 background: #FFBCBC;
 border-radius: 0px;
+
+}
+.Frame5-2Rectangle:hover{
+    background-color: #ca6666;
 
 }
 .Frame5-4{
@@ -1465,6 +1498,7 @@ border-radius: 0px;
 
 }
 .Frame6{
+    cursor: default;
     max-width: 1440px;
 width: 100%;
 display: flex;
@@ -1504,7 +1538,7 @@ width: 179px;
 height: 28px;
 left: calc(50% - 179px/2 + 0.5px);
 top: 14px;
-
+transition: transform 0.3s ease;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -1515,6 +1549,9 @@ text-align: center;
 
 color: #000000;
 
+}
+.Frame6-1text:hover{
+    transform: scale(1.1);
 }
 .Frame6-1Rectangle{
     
@@ -1567,6 +1604,7 @@ border-radius: 0px;
 }
 
 .Frame7{
+    cursor: default;
     max-width: 1440px;
 width: 100%;
 display: flex;
@@ -1718,7 +1756,7 @@ border-radius: 0px;
 
 }
 .Frame9-1{
-    
+    transition: transform 0.3s ease;
 position: absolute;
 height: 55px;
 left: 85.07%;
@@ -1733,7 +1771,7 @@ width: 85px;
 height: 28px;
 left: calc(50% - 85px/2 + 0.5px);
 top: 13px;
-
+transition: transform 0.3s ease;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -1744,6 +1782,9 @@ text-align: center;
 
 color: #000000;
 
+}
+.Frame9-1:hover{
+    transform: scale(1.1);
 }
 .Frame9-1Rectangle{
     
@@ -2135,6 +2176,7 @@ bottom: 1.41%;
 
 }
 .Frame11{
+    cursor: default;
     max-width: 1440px;
     width: 100%;
     display: flex;
