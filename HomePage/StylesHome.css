@@ -3178,10 +3178,33 @@ body.dark-theme header {
 }
 
 body.dark-theme button {
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
 }
-
+select {
+    background-color: none; 
+    color: rgb(0, 0, 0);
+    padding: 10px; /* Внутренний отступ */
+    font-size: 16px; /* Размер шрифта */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Курсор-указатель */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+button.StyleBT{
+    border: none;
+    background: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button.StyleBT:hover{
+    background-color: #45a049; /* Темно-зеленый фон при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+button.StyleB:hover{
+    background-color: #459ba0; /* Темно-зеленый фон при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
 .headerL{
 
 position: absolute;
@@ -3273,6 +3296,10 @@ button{
     outline: none;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
+}
+button.StyleB{
+    border:none;
+    background: none;
 }
 
 .slider-container {
