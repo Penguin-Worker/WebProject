@@ -3325,10 +3325,10 @@ button.StyleB{
         transform: translateX(0); /* Начальное положение - слайды не сдвинуты */
     }
     25% {
-        transform: translateX(-90%); /* Сдвиг влево до края */
+        transform: translateX(-65%); /* Сдвиг влево до края */
     }
     50% {
-        transform: translateX(-90%); /* Слайды касаются края */
+        transform: translateX(-65%); /* Слайды касаются края */
     }
     75% {
         transform: translateX(0); /* Сдвиг вправо, возвращение на начальное положение */
@@ -3359,7 +3359,7 @@ button.StyleB{
     
     height: 100%;
     opacity: 0; /* Скрыть все слайды по умолчанию */
-    transition: opacity 0.5s ease; /* Плавное появление слайдов */
+    transition: opacity 1.0s ease; /* Плавное появление слайдов */
 }
 
 .slide.active {
