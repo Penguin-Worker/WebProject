@@ -106,6 +106,42 @@ background: #bab2b2;
 
 
 
+.Menu1text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.Menu2text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.Menu3text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.Menu4text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.Menu5text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.Menu6text:hover{
+    font-weight: bold;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    color: #1a582c; /* Новый цвет текста при наведении */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
 .MenuHigh{
     position: absolute;
     width: 1440;
@@ -1303,7 +1339,7 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 6.8%;
+            right: 0%;
             top: -1px;
             
             font-family: 'Roboto';
@@ -1312,9 +1348,15 @@ top: 2041.36px;
             font-size: 18px;
             line-height: 28px;
             /* identical to box height, or 155% */
-            
+            cursor: default;
             color: #000000;
             
+            }
+            .FooterTop1text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                
             }
             .FooterTop1{
                 
@@ -1357,19 +1399,20 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 22.12%;
+            right: 0%;
             top: -1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 28px;
             /* identical to box height, or 155% */
-            
+            cursor: default;
             color: #000000;
             
                         }
+                        
             .Footerbase2{
                 
             position: absolute;
@@ -1385,9 +1428,9 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 77.88%;
+            right: 56.67%;
             top: -1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -1441,6 +1484,11 @@ top: 2041.36px;
             
             color: #000000;
             }
+            .Footerbase4text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             .Footerbase5{
                
             position: absolute;
@@ -1454,7 +1502,7 @@ top: 2041.36px;
             position: absolute;
             height: 31px;
             left: 0%;
-            right: 16.88%;
+            right: 0%;
             top: 0px;
             
             font-family: 'Roboto';
@@ -1465,7 +1513,13 @@ top: 2041.36px;
             /* identical to box height, or 155% */
             
             color: #000000;
+            
                 }
+            .Footerbase5text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             .Footerbase6{
                        
             position: absolute;
@@ -1492,7 +1546,11 @@ top: 2041.36px;
             
             color: #000000;
             }    
-            
+            .Footerbase6text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             .Footerbase7{
                  
             position: absolute;
@@ -1519,6 +1577,11 @@ top: 2041.36px;
             
             color: #000000;
              }
+            .Footerbase7text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             
              .Footerbase8{
                  
@@ -1546,6 +1609,11 @@ top: 2041.36px;
             
             color: #000000;
                  }
+            .Footerbase8text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
                  .Footerbase9{
                  
             position: absolute;
@@ -1572,6 +1640,11 @@ top: 2041.36px;
             
             color: #000000;
                          }
+            .Footerbase9text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             .Footerbase10{
               
             position: absolute;
@@ -1598,6 +1671,11 @@ top: 2041.36px;
             
             color: #000000;
                          }
+            .Footerbase10text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
                         .Footerbase11{
              
             position: absolute;
@@ -1612,9 +1690,9 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 32.4%;
+            right: 0%;
             top: -1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -1623,6 +1701,7 @@ top: 2041.36px;
             /* identical to box height, or 155% */
             
             color: #000000;
+            
                          }
                          .Footerbase12{
              
@@ -1633,13 +1712,14 @@ top: 2041.36px;
             top: 258px;
                             }
               .Footerbase12text{
-                white-space: nowrap;
+              /* Fit guide */
+              white-space: nowrap;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 52.67%;
+            right: 0%;
             top: -1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -1648,6 +1728,8 @@ top: 2041.36px;
             /* identical to box height, or 155% */
             
             color: #000000;
+            
+            
                          }
                          .Footerbase13{
              
@@ -1662,7 +1744,7 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 31.2%;
+            right: 2.8%;
             top: -1px;
             
             font-family: 'Roboto';
@@ -1673,7 +1755,13 @@ top: 2041.36px;
             /* identical to box height, or 164% */
             
             color: #000000;
+            
                          }
+            .Footerbase13text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
                         .Footerbase14{
              
             position: absolute;
@@ -1688,7 +1776,7 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 53.33%;
+            right: 24.17%;
             top: -1px;
             
             font-family: 'Roboto';
@@ -1699,7 +1787,13 @@ top: 2041.36px;
             /* identical to box height, or 155% */
             
             color: #000000;
+            
                          }
+            .Footerbase14text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
                          .Footerbase15{
              
             position: absolute;
@@ -1713,9 +1807,9 @@ top: 2041.36px;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 36.29%;
+            right: 3.47%;
             top: -1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -1724,33 +1818,33 @@ top: 2041.36px;
             /* identical to box height, or 155% */
             
             color: #000000;
+            
                          }
- .Footerbase16{
-     
-position: absolute;
-width: 263px;
-height: 50px;
-left: 984px;
-top: 144px;
-
-  }
+                         .Footerbase16{
+             
+            position: absolute;
+            height: 50px;
+            left: 68.33%;
+            right: 12.92%;
+            top: 144px;
+            
+                            }
               .Footerbase16text{
-               
-position: absolute;
-height: 51px;
-left: 0%;
-right: 9.26%;
-top: 1px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-/* or 140% */
-
-color: #000000;
-
+                white-space: nowrap;
+            position: absolute;
+            height: 51px;
+            left: 0%;
+            right: 9.26%;
+            top: 1px;
+            cursor: default;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            /* or 140% */
+            
+            color: #000000;
                          }
                          .Footerbase17{
              
@@ -1766,9 +1860,9 @@ color: #000000;
             position: absolute;
             height: 38px;
             left: 0%;
-            right: 10.81%;
+            right: 0%;
             top: 1px;
-            
+            cursor: default;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -1777,6 +1871,7 @@ color: #000000;
             /* or 155% */
             
             color: #000000;
+            
                          }
                          .Footerbase18{
              
@@ -1791,7 +1886,7 @@ color: #000000;
             position: absolute;
             height: 28px;
             left: 0%;
-            right: 57.71%;
+            right: 38.57%;
             top: -1px;
             
             font-family: 'Roboto';
@@ -1804,6 +1899,12 @@ color: #000000;
             color: #000000;
             
                          }
+            .Footerbase18text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                cursor: pointer;
+            }
                          .Footerbase19{
              
             position: absolute;
@@ -1830,6 +1931,11 @@ color: #000000;
             color: #000000;
             
                          }
+            .Footerbase19text:hover{
+                transition: color 0.5s ease, text-shadow 0.5s ease;    
+                color: #032f38; /* Новый цвет текста при наведении */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            }
             .FooterDown{
                 
             position: absolute;
@@ -1837,7 +1943,7 @@ color: #000000;
             left: 9.72%;
             right: 44.44%;
             top: 410px;
-            
+            cursor: default;
             }
             .FooterDownRec1{
                 /* Rectangle */
