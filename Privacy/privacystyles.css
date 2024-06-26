@@ -1483,16 +1483,17 @@ bottom: 12.51%;
         }
         body.dark-theme {
             background-color: #434141;
-            color: rgb(0, 0, 0);
+            color: white;transition: background-color 0.3s ease; 
         }
         
         body.dark-theme header {
-            background-color: #1f1f1f;
+            background-color: #1f1f1f;transition: background-color 0.3s ease; 
         }
         
         body.dark-theme button {
-            background-color: #333;
-            color: white;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            transition: background-color 0.3s ease; 
         }
     
         button:hover{
