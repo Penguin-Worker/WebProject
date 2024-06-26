@@ -1264,7 +1264,7 @@ height: 914px;
 left: 0%;
 right: 0%;
 top: 0px;
-
+width: 320px;
 background: #AABAD0;
 border-radius: 0px;
 
@@ -1474,7 +1474,7 @@ height: 56px;
 left: 0%;
 right: 18.11%;
 top: 23px;
-
+white-space: wrap;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;

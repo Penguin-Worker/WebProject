@@ -592,7 +592,7 @@ gap: 10px;
 
 width: 324px;
 height: 54px;
-
+transition: background-color 0.3s ease;
 /* Secondary */
 border: 2px solid #FFCCBC;
 border-radius: 100px;
@@ -623,6 +623,9 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
+}
+.Frame1Button:hover{
+background:#387a8f;
 }
 
 .Frame2{
@@ -1058,7 +1061,7 @@ color: #0B4141;
 
 }
 .Frame4B{
- 
+    transition: background-color 0.3s ease;
 position: absolute;
 width: 640px;
 height: 110px;
@@ -1066,8 +1069,14 @@ left: 80px;
 top: 471px;
 
 }
+.Frame4BREC:hover{
+    background-color: #631a26;
+}
+.Frame4Btext:hover{
+    transform: scale(1.1);
+}
 .Frame4Btext{
-   
+    transition: transform 0.3s ease;
 position: absolute;
 width: 151px;
 height: 25px;
@@ -1086,7 +1095,7 @@ color: #000000;
 
 }
 .Frame4BREC{
-    
+    transition: background-color 0.8s ease;
 position: absolute;
 height: 110px;
 left: 0%;
@@ -2124,19 +2133,23 @@ top: 131px;
                     body.dark-theme {
                         background-color: #434141;
                         color: white;
+                        transition: background-color 0.3s ease; 
                     }
                     
                     body.dark-theme header {
                         background-color: #1f1f1f;
+                        transition: background-color 0.3s ease; 
                     }
                     
                     body.dark-theme button {
                         background-color: #333;
                         color: white;
+                        transition: background-color 0.3s ease; 
                     }
                 
                     button:hover{
                         background-color: #2980b9;
+                        transition: background-color 0.3s ease; 
                     }
                     button{
                         border: none;

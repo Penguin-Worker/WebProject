@@ -463,7 +463,7 @@ top: 366px
 
 }
 .Frame1-1text{
-    
+    white-space: nowrap;
 position: absolute;
 height: 131px;
 left: 0%;
@@ -526,9 +526,12 @@ font-size: 17px;
 line-height: 28px;
 /* identical to box height, or 164% */
 text-align: center;
-
+transition: transform 0.3s ease;
 color: #000000;
 transition: transform 0.3s ease;
+     }
+     .Frame1-2text:hover{
+        transform: scale(1.1);
      }
      
 .Frame1-2Rectangle{
@@ -543,8 +546,7 @@ border-radius: 30px;
 
 }
 .Frame1-2Rectangle:hover{
-    transform: scale(1.1);
-    
+        
     border:#000000;
     border: 2px solid #000;
  }
@@ -859,8 +861,19 @@ line-height: 108px;
 /* identical to box height, or 155% */
 
 color: #000000;
-
+animation: colorChange 3s infinite;
      }
+     @keyframes colorChange {
+        0% {
+            color: rgb(0, 0, 0);
+        }
+        50% {
+            color: rgb(50, 49, 49);
+        }
+        100% {
+            color: rgb(0, 0, 0);
+        }
+    }
      .Frame3-2Rectangle{
     
 position: absolute;
@@ -1406,7 +1419,18 @@ line-height: 108px;
 /* identical to box height, or 155% */
 
 color: #000000;
-
+animation: blink 3s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .Frame5-3Rectangle{
     
@@ -1419,6 +1443,7 @@ top: 0px;
 border-radius: 0px;
 
 }
+
 .Frame5Rectangle1{
     
 position: absolute;
@@ -1569,7 +1594,7 @@ border-radius: 0px;
 position: absolute;
 height: 108px;
 left: 4.58%;
-right: 66.25%;
+right: 40.25%;
 top: -29px;
 
 }
@@ -1589,7 +1614,30 @@ line-height: 108px;
 /* identical to box height, or 155% */
 
 color: #000000;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
 
+
+
+
+animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
 }
 .Frame6-2Rectangle{
    
@@ -1823,7 +1871,18 @@ line-height: 108px;
 
 color: #000000;
 
-
+animation: colorChange 5s infinite;
+}
+@keyframes colorChange {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+    50% {
+        color: rgb(2, 2, 63);
+    }
+    100% {
+        color: rgb(0, 0, 0);
+    }
 }
 .Frame9-2Rectangle{
   
@@ -2283,6 +2342,7 @@ line-height: 108px;
 color: #000000;
 
 }
+
 .Frame11GeneralRectangle{
    
 position: absolute;
@@ -3295,7 +3355,7 @@ position: absolute;
 width: 70px;
 height: 60px;
 left: 5%;
-top: 120px;
+top: 115px;
 
 
 }
@@ -3305,22 +3365,22 @@ position: absolute;
 width: 70px;
 height: 60px;
 left: 12%;
-top: 120px;
-
+top: 90px;
+transition: background-color 0.3s ease; 
 }
 body.dark-theme {
     background-color: #434141;
-    color: white;
+    color: white;transition: background-color 0.3s ease; 
 }
 
 body.dark-theme header {
-    background-color: #1f1f1f;
+    background-color: #1f1f1f;transition: background-color 0.3s ease; 
 }
 
 body.dark-theme button {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    
+    transition: background-color 0.3s ease; 
 }
 select {
     background-color: none; 
