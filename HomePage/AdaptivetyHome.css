@@ -377,7 +377,7 @@ top: 373px;
 
 }
 .Frame1-1text{
-    
+    white-space: wrap;
 position: absolute;
 height: 261px;
 left: 0%;
@@ -395,21 +395,26 @@ color: #000000;
 
 }
 .Frame1-3{
-    flex-wrap: wrap;
+   /* Frame */
+
 position: absolute;
+width: 55px;
 height: 17px;
-left: 25.13%;
-right: 67.71%;
+left: 193px;
 top: 621px;
+
 
 }
 .Frame1-2{
-    flex-wrap: wrap;
+    /* Frame */
+
 position: absolute;
+width: 106.67px;
 height: 55px;
-left: 6.51%;
-right: 79.6%;
+left: 50px;
 top: 602px;
+
+
 }
 .Frame1-3vector{
    
@@ -2032,7 +2037,7 @@ top: 0px;
 
 }
 .Frame11-2text{
-    
+    white-space: wrap;
 position: absolute;
 height: 162px;
 left: 0%;
@@ -2109,7 +2114,7 @@ height: 914px;
 left: 0%;
 right: 0%;
 top: 0px;
-
+width: 320px;
 background: #AABAD0;
 border-radius: 0px;
 

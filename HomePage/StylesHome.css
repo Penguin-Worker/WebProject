@@ -500,15 +500,17 @@ right: 8.33%;
 top: 71px;
 background: url(Images/image21.png);
 border-radius: 0px;
-
+min-width: 488px;
 }
 .Frame1-2{  
+/* Frame */
 
 position: absolute;
+width: 200px;
 height: 55px;
-left: 8.89%;
-right: 77.22%;
+left: 128px;
 top: 471px;
+
 
  }
  .Frame1-2text{  
@@ -551,12 +553,14 @@ border-radius: 30px;
     border: 2px solid #000;
  }
 .Frame1-3{
-    
+    /* Frame */
+
 position: absolute;
+width: 55px;
 height: 17px;
-left: 22.71%;
-right: 73.47%;
+left: 327px;
 top: 490px;
+
 
 }
 .Frame1-3Rectangle{
@@ -2258,7 +2262,9 @@ top: 99px;
 
 }
 .Frame11-1text1{
-    
+    display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
 position: absolute;
 height: 120px;
 left: 0%;
@@ -2271,7 +2277,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 /* or 150% */
-
+-webkit-line-clamp: 5;
 color: #000000;
 
 }
@@ -2325,7 +2331,7 @@ top: -29px;
 
 }
 .Frame11-2text{
-   
+    white-space: nowrap;
 position: absolute;
 height: 109px;
 left: 0%;
