@@ -1029,8 +1029,8 @@ color: #000000;
  
 position: absolute;
 height: 36px;
-left: 9.65%;
-right: 64.65%;
+left: 139px;
+width: 370px;
 top: 430px;
 
                 }
@@ -1116,63 +1116,77 @@ color: #000000;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .FooterDown{
+   
+    position: absolute;
+    width: 660px;
+    height: 18px;
+    left: 140px;
+    top: 410px;
     
-position: absolute;
-height: 18px;
-left: 9.72%;
-right: 44.44%;
-top: 410px;
-cursor: default;
-}
-.FooterDownRec1{
+    
+    cursor: default;
+    }
+    .FooterDownRec1{
+       /* Rectangle */
+    
+    position: absolute;
+    width: 67px;
+    height: 1px;
+    left: 182px;
+    top: 16.72px;
+    
+    background: #000000;
+    
+    }
+    .FooterDownRec2{
     /* Rectangle */
-
-position: absolute;
-height: 1px;
-left: 27.58%;
-right: 62.27%;
-top: 16.72px;
-
-background: #000000;
-}
-.FooterDownRec2{
-position: absolute;
-height: 1px;
-left: 43.33%;
-right: 44.39%;
-top: 16.72px;
-
-background: #000000;
-}
-.FooterDownRec3{
-position: absolute;
-height: 1px;
-left: 56.52%;
-right: 35.91%;
-top: 16.72px;
-
-background: #000000;
-}
-.FooterDownRec4{
-
-position: absolute;
-height: 1px;
-left: 38.64%;
-right: 57.58%;
-top: 16.72px;
-
-background: #000000;
-}
-.FooterDownRec5{
-position: absolute;
-height: 1px;
-left: 21.52%;
-right: 73.33%;
-top: 16.72px;
-
-background: #000000;
-
-}
+    
+    position: absolute;
+    width: 81px;
+    height: 1px;
+    left: 286px;
+    top: 16.72px;
+    
+    background: #000000;
+    
+    }
+    .FooterDownRec3{
+    /* Rectangle */
+    
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    left: 373px;
+    top: 16.72px;
+    
+    background: #000000;
+    
+    }
+    .FooterDownRec4{
+    /* Rectangle */
+    
+    position: absolute;
+    width: 25px;
+    height: 1px;
+    left: 255px;
+    top: 16.72px;
+    
+    background: #000000;
+    
+    }
+    .FooterDownRec5{
+    /* Rectangle */
+    
+    position: absolute;
+    width: 34px;
+    height: 1px;
+    left: 142px;
+    top: 16.72px;
+    
+    background: #000000;
+    
+    
+    }
 .Footercomma1{
    
 position: absolute;
