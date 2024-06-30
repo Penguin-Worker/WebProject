@@ -121,8 +121,8 @@ margin: 0 auto;
  
 position: absolute;
 height: 2px;
-left: -100%;
-right: -100%;
+left: 0%;
+right: 0%;
 top: 80px;
 
 background: #000000;
@@ -133,8 +133,8 @@ border-radius: 0px;
 
 position: absolute;
 height: 2px;
-left: -100%;
-right: -100%;
+left: 0%;
+right: 0%;
 top: 1px;
 
 background: #000000;
@@ -777,8 +777,8 @@ justify-content: center;
     
 position: absolute;
 height: 2px;
-left: -100%;
-right: -100%;
+left: 0%;
+right: 0%;
 top: 71px;
 
 background: #000000;
@@ -864,15 +864,15 @@ font-size: 70px;
 line-height: 108px;
 /* identical to box height, or 155% */
 
-color: #000000;
-animation: colorChange 3s infinite;
+
+animation: colorChange 1s infinite;
      }
      @keyframes colorChange {
         0% {
             color: rgb(0, 0, 0);
         }
         50% {
-            color: rgb(50, 49, 49);
+            color: rgb(94, 255, 0);
         }
         100% {
             color: rgb(0, 0, 0);
@@ -1544,8 +1544,8 @@ top: 3309px;
    
 position: absolute;
 height: 2px;
-left: -88.89%;
-right: -88.89%;
+left: 0%;
+right: 0%;
 top: 71px;
 
 background: #000000;
@@ -1799,8 +1799,8 @@ top: 4837px;
    
 position: absolute;
 height: 2px;
-left: -88.89%;
-right: -88.89%;
+left: 0%;
+right: 0%;
 top: 71px;
 
 background: #000000;
@@ -2389,8 +2389,8 @@ border-radius: 0px;
    
 position: absolute;
 height: 2px;
-left: -88.89%;
-right: -88.89%;
+left: 0%;
+right: 0%;
 top: 104px;
 
 background: #000000;

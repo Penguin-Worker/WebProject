@@ -1566,8 +1566,8 @@ top: 1694px;
 .Frame3Rectangle{
     position: absolute;
     height: 2px;
-    left: -88.75%;
-    right: -89.03%;
+    left: 0%;
+    right: 0%;
     top: 84px;
     
     background: #000000;
