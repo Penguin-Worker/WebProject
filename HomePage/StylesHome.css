@@ -3617,3 +3617,6 @@ button.StyleB{
 .slide.active {
     opacity: 1; /* Показать активный слайд */
 }
+.no-scroll {
+    overflow-x: hidden;
+}
