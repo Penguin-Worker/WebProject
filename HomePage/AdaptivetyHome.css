@@ -1463,15 +1463,18 @@ color: #000000;
 
 }
 .Frame1-2{
- 
+
 position: absolute;
 height: 55px;
-left: 45.62%;
-right: -4.69%;
-top: 518px;
+left: 64.06%;
+right: 30%;
+top: 574px;
+
+transform: rotate(-90deg);
 
 }
 .Frame1-2text{
+/* SEE THE COLLECTION */
 
 position: absolute;
 width: 179px;
@@ -1488,7 +1491,10 @@ line-height: 28px;
 text-align: center;
 
 color: #000000;
-transform: rotate(-90deg);
+
+}
+.Frame1-2Rectangle{
+    display: none;
 }
 .Frame1-3{
  
