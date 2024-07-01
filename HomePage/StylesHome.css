@@ -478,19 +478,40 @@ line-height: 130px;
 /* identical to box height, or 155% */
 
 color: #000000;
-
+-webkit-line-clamp: 2;
+	line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }
 .Frame1-1Rectangle{
    
 position: absolute;
-height: 130px;
+height: 95%;
 left: 0%;
 right: 0%;
-top: 0px;
-
+top: 20px;
 border-radius: 0px;
+animation: backgroundColorChange 11s infinite;
+        }
 
-}
+        @keyframes backgroundColorChange {
+            0% {
+                background-color: rgba(249, 190, 190,0.9);
+            }
+            25% {
+                background-color: rgba(243, 220, 176,0.9);
+            }
+            50% {
+                background-color: rgba(241, 241, 171,0.9);
+            }
+            75% {
+                background-color: rgba(182, 244, 182,0.9);
+            }
+            100% {
+                background-color: rgba(206, 206, 254,0.9);
+            }
+        }
 .Frame1-png{
    
 position: absolute;
@@ -498,9 +519,10 @@ height: 578px;
 left: 57.78%;
 right: 8.33%;
 top: 71px;
-background: url(Images/image21.png);
+background: url(Images/image21.png)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
-min-width: 488px;
+
 }
 .Frame1-2{  
 /* Frame */
@@ -683,7 +705,8 @@ left: 0.07%;
 right: 49.93%;
 top: 0px;
 
-background: url(Images/image2.jpg);
+background: url(Images/image2.jpg)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
 
 }
@@ -744,7 +767,8 @@ left: 50%;
 right: 0%;
 top: 0px;
 
-    background: url(Images/image3.jpg);
+    background: url(Images/image3.jpg)no-repeat center center;
+    background-size: cover;
     border-radius: 0px;
     
     }
@@ -865,17 +889,17 @@ line-height: 108px;
 /* identical to box height, or 155% */
 
 
-animation: colorChange 1s infinite;
+animation: colorChange21 3s infinite;
      }
-     @keyframes colorChange {
+     @keyframes colorChange21 {
         0% {
-            color: rgb(0, 0, 0);
+            color: rgb(255, 0, 0);
         }
         50% {
             color: rgb(94, 255, 0);
         }
         100% {
-            color: rgb(0, 0, 0);
+            color: rgb(125, 67, 67);
         }
     }
      .Frame3-2Rectangle{
@@ -1423,7 +1447,7 @@ line-height: 108px;
 /* identical to box height, or 155% */
 
 color: #000000;
-animation: blink 3s infinite;
+animation: blink 2s infinite;
 }
 @keyframes blink {
     0% {
@@ -1765,7 +1789,8 @@ left: 0.07%;
 right: 49.93%;
 top: 0px;
 
-background: url(Images/image11.jpg);
+background: url(Images/image11.jpg)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
 
 }
@@ -1777,7 +1802,8 @@ left: 50.07%;
 right: -0.07%;
 top: 0px;
 
-    background: url(Images/image10.jpg);
+    background: url(Images/image10.jpg)no-repeat center center;
+    background-size: cover;
     border-radius: 0px;
     
     }
@@ -1882,10 +1908,10 @@ animation: colorChange 5s infinite;
         color: rgb(0, 0, 0);
     }
     50% {
-        color: rgb(2, 2, 63);
+        color: rgb(10, 10, 170);
     }
     100% {
-        color: rgb(0, 0, 0);
+        color: rgb(2, 28, 28);
     }
 }
 .Frame9-2Rectangle{
@@ -2309,6 +2335,7 @@ top: 0px;
 
 border-radius: 0px;
 }
+
 .Frame11img{
     
 position: absolute;
@@ -2317,9 +2344,14 @@ left: 50%;
 right: 20.83%;
 top: 0px;
 
-background: url(Images/image20.jpg);
+background: url(Images/image20.jpg) no-repeat center center;
+background-size: cover;
 border-radius: 0px;
-
+color: black;
+transition: box-shadow 0.3s ease-in-out;
+}
+.Frame11img:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .Frame11-2{
     
@@ -2438,7 +2470,7 @@ color: #000000;
 }
 .FooterTop1text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     
 }
@@ -2570,7 +2602,7 @@ color: #000000;
 }
 .Footerbase4text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .Footerbase5{
@@ -2601,7 +2633,7 @@ color: #000000;
     }
 .Footerbase5text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .Footerbase6{
@@ -2632,7 +2664,7 @@ color: #000000;
 }    
 .Footerbase6text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .Footerbase7{
@@ -2663,7 +2695,7 @@ color: #000000;
  }
 .Footerbase7text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -2695,7 +2727,7 @@ color: #000000;
      }
 .Footerbase8text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
      .Footerbase9{
@@ -2726,7 +2758,7 @@ color: #000000;
              }
 .Footerbase9text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .Footerbase10{
@@ -2757,7 +2789,7 @@ color: #000000;
              }
 .Footerbase10text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
             .Footerbase11{
@@ -2843,7 +2875,7 @@ color: #000000;
              }
 .Footerbase13text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
             .Footerbase14{
@@ -2875,7 +2907,7 @@ color: #000000;
              }
 .Footerbase14text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
              .Footerbase15{
@@ -2985,7 +3017,7 @@ color: #000000;
              }
 .Footerbase18text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
@@ -3017,7 +3049,7 @@ color: #000000;
              }
 .Footerbase19text:hover{
     transition: color 0.5s ease, text-shadow 0.5s ease;    
-    color: #032f38; /* Новый цвет текста при наведении */
+    color: #32d6f7; /* Новый цвет текста при наведении */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .FooterDown{

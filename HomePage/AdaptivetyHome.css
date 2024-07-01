@@ -363,7 +363,8 @@ left: 33.59%;
 right: 2.86%;
 top: 71px;
 
-background: url(Images/image21.png);
+background: url(Images/image21.png)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
 
 }
@@ -466,7 +467,8 @@ left: 0.14%;
 right: 0%;
 top: 0px;
 
-background: url(Images/image2.jpg);
+background: url(Images/image2.jpg)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
 
 }
@@ -478,7 +480,8 @@ left: 0.14%;
 right: 0%;
 top: 620px;
 
-background: url(Images/image3.jpg);
+background: url(Images/image3.jpg)no-repeat center center;
+background-size: cover;
 border-radius: 0px;
 
 }
@@ -908,7 +911,7 @@ position: absolute;
 width: 768px;
 height: 588px;
 left: 0px;
-top: 8292px;
+top: 8352px;
 
 }
 
