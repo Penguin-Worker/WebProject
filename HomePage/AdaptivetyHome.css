@@ -1434,21 +1434,23 @@ border-radius: 0px;
 
 }
 .Frame1-1{
+/* Frame */
 
 position: absolute;
-height: 17px;
-left: 29.82%;
-right: 66.36%;
-top: 611px;
+height: 489px;
+left: 0%;
+right: 0%;
+top: 183px;
+
 
 }
 .Frame1-1text{
-   
+ 
 position: absolute;
-height: 500px;
-left: -756.14%;
-right: -1762.05%;
-top: -432px;
+height: 489px;
+left: 0%;
+right: 0%;
+top: 0px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -1591,7 +1593,7 @@ top: 156px;
 position: absolute;
 height: 108px;
 left: 0%;
-right: -25.94%;
+right: 0%;
 top: -24px;
 
 }
@@ -1784,25 +1786,26 @@ top: 60px;
    
 position: absolute;
 height: 108px;
-left: 6.88%;
-right: -39.06%;
+left: 0%;
+right: 0.31%;
 top: -16px;
+
 
 }
 .Frame6-2text{
-    
+   
 position: absolute;
 height: 109px;
-left: -5.44%;
-right: 22.1%;
+left: 0%;
+right: 0%;
 top: -1px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 66px;
+font-size: 64px;
 line-height: 108px;
-/* identical to box height, or 164% */
+/* identical to box height, or 170% */
 
 color: #000000;
 
@@ -1927,20 +1930,20 @@ top: 79px;
 
 }
 .Frame9-2{
-    
+  
 position: absolute;
 height: 108px;
-left: 4.56%;
-right: 40.62%;
+left: 0%;
+right: 0%;
 top: -29px;
 
 }
 .Frame9-2text{
-    
+ 
 position: absolute;
 height: 109px;
-left: -5.46%;
-right: -144.23%;
+left: 0%;
+right: 0%;
 top: 11px;
 
 font-family: 'Roboto';
