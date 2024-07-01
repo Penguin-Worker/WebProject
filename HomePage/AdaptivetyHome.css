@@ -1174,7 +1174,7 @@ top: 397px;
 @media (max-width: 400px) 
 {
     body {
-        max-width: 320px;
+        width: 100%;
         margin: 0 auto;
         overflow-x: hidden;
     }
