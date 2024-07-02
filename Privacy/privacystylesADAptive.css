@@ -284,7 +284,7 @@
 
  .Frame1 {
     max-width: 800px;
-    min-width: 520px;
+    min-width: 400px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -309,6 +309,7 @@
     padding: 0;
     text-align: justify;
 }
+
 .FooterRecV{
   
     position: absolute;
@@ -563,6 +564,16 @@
     top: 397px;
     
     }
+    .language-select{
+
+        position: absolute;
+        width: 70px;
+        height: 60px;
+        left: 5%;
+        top: 100px;
+        
+        
+        }
 }
 @media (max-width: 400px) 
 {
@@ -785,22 +796,33 @@ border: 2px solid #000000;
 border-radius: 0px;
 
 }
-
 .Frame1 {
-    margin: 5px; /* Уменьшаем внешний отступ */
-    padding: 10px; /* Уменьшаем внутренний отступ */
-    max-width: 280px; /* Максимальная ширина блока с текстом */
-    overflow-x: hidden; /* Скрываем горизонтальную прокрутку */
-    word-wrap: break-word; /* Перенос слов */
+    margin: 420px auto 20px; 
+    min-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   
+    z-index: 1;
 }
 
 .Frame1 p.headerprivacy {
-    font-size: 16px; /* Размер шрифта заголовка */
-    margin-bottom: 5px; /* Нижний отступ заголовка */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.privacydiv {
+    margin-bottom: 20px;
 }
 
 .privacydiv p {
-    font-size: 12px; /* Размер шрифта текста */
+    margin: 0;
+    padding: 0;
+    text-align: justify;
 }
 
 footer{

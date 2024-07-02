@@ -570,8 +570,8 @@ top: 832px;
     
     position: absolute;
     height: 2px;
-    left: -100%;
-    right: -100%;
+    left: 0%;
+    right: 0%;
     top: 71px;
     
     background: #000000;
@@ -1134,8 +1134,8 @@ top: 1891px;
    
 position: absolute;
 height: 2px;
-left: -88.89%;
-right: -88.89%;
+left: 0%;
+right: 0%;
 top: 71px;
 
 background: #000000;
