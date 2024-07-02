@@ -429,12 +429,13 @@ top: 1998px;
 .Frame5{
     
 position: absolute;
-width: 768px;
+max-width: 768px;
 height: 75px;
 left: 0px;
 top: 3148px;
 
 }
+
 .Frame5-2{
     
 position: absolute;
@@ -1190,8 +1191,8 @@ color: #000000;
    
 position: absolute;
 height: 2px;
-left: -88.89%;
-right: -88.89%;
+left: 0%;
+right: 0%;
 top: 161px;
 
 background: #000000;
