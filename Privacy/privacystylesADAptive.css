@@ -97,7 +97,7 @@
  
  }
  .Menu1{
-     
+     display: none;
  position: absolute;
  height: 55px;
  left: 78.39%;
@@ -129,7 +129,7 @@
      display: none;
  }
  .Menu3{
-     
+    display: none;
  position: absolute;
  height: 81px;
  left: 43.54%;
@@ -198,7 +198,7 @@
  
  }
  .Menu5{
-    
+    display: none;
  position: absolute;
  height: 81px;
  left: 30.97%;
@@ -240,7 +240,7 @@
  
  }
  .Menu6{
-    
+     display: none;
  position: absolute;
  height: 81px;
  left: 56.11%;
@@ -588,7 +588,7 @@
         display: none;
         position: absolute;
         top: 60px;
-        left: -10px;
+        left: -110px;
         width: 300px;
         height: 440px;
         background-color: gray;
@@ -612,9 +612,9 @@ top: 0px;
         cursor: pointer;
 position: absolute;
 height: 80px;
-left: 0%;
-right: 83.75%;
-top: 79px;
+right: 0%;
+left: 83.75%;
+top: 1px;
 
     }
 .rectangleM4{
@@ -1299,9 +1299,60 @@ footer{
      
         position: absolute;
         height: 60px;
-        left: 5%;
-        top: 160px;
+        left: 4%;
+        top: 130px;
         
         }
         
+    }
+    .animation-container {
+        width: 320px;
+        height: 80px;
+        perspective: 1000px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 80px;
+    }
+    
+    .cube {
+        width: 40px;
+        height: 40px;
+        transform-style: preserve-3d;
+        animation: rotateCube 0.5s infinite linear;
+    }
+    .cube1 {
+        width: 40px;
+        height: 40px;
+        transform-style: preserve-3d;
+        animation: rotateCube 5s infinite linear;
+    }
+    .side {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 100, 100, 0.8);
+        border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    .side1 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: rgba(21, 255, 0, 0.8);
+        border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    
+    .front  { transform: rotateY(   0deg) translateZ(20px); }
+    .back   { transform: rotateY( 180deg) translateZ(20px); }
+    .left   { transform: rotateY( -90deg) translateZ(20px); }
+    .right  { transform: rotateY(  90deg) translateZ(20px); }
+    .top    { transform: rotateX(  90deg) translateZ(20px); }
+    .bottom { transform: rotateX( -90deg) translateZ(20px); }
+    
+    @keyframes rotateCube {
+        from { transform: rotateX(0deg) rotateY(0deg); }
+        to { transform: rotateX(360deg) rotateY(360deg); }
     }
