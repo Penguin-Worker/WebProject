@@ -97,3 +97,30 @@ document.getElementById('theme-toggleL').addEventListener('click', function() {
       localStorage.removeItem('theme');
   }
 });
+document.addEventListener("DOMContentLoaded", function() {
+  var modal = document.getElementById("modal");
+  var openModalButton = document.getElementById("openModal");
+  var closeModalButton = document.getElementsByClassName("close")[0];
+  var acknowledgeButton = document.getElementById("acknowledgeButton");
+
+  // Открытие модального окна
+  openModalButton.onclick = function() {
+      modal.style.display = "block";
+  }
+
+  // Закрытие модального окна
+  closeModalButton.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  acknowledgeButton.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // Закрытие модального окна при клике вне его области
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+});
