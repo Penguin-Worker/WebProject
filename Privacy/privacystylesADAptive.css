@@ -837,9 +837,7 @@ border-radius: 0px;
     padding: 0;
     text-align: justify;
 }
-.StyleBT{
 
-}
 footer{
     
     position: absolute;
@@ -862,7 +860,7 @@ footer{
     }
     .FrameB{
         position: absolute;
-        bottom: -350px; /* Положение контейнера с кнопкой над футером */
+        bottom: -350px; 
         width: 100%;
         text-align: center;
     }
