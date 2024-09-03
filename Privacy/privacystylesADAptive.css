@@ -283,13 +283,15 @@
  }
 
  .Frame1 {
-    max-width: 800px;
+   
+    max-width: 90%;
     min-width: 400px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    
 }
 
 .Frame1 p.headerprivacy {
@@ -299,9 +301,20 @@
     margin-bottom: 20px;
     color: #007bff;
 }
-
+.FrameB{
+    position: absolute;
+    bottom: -100px; 
+    width: 100%;
+    text-align: center;
+}
+.StyleBT {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
 .privacydiv {
     margin-bottom: 20px;
+    
 }
 
 .privacydiv p {
@@ -803,7 +816,7 @@ border-radius: 0px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-   
+    max-height: calc(100vh - 20px);
     z-index: 1;
 }
 
@@ -824,7 +837,9 @@ border-radius: 0px;
     padding: 0;
     text-align: justify;
 }
+.StyleBT{
 
+}
 footer{
     
     position: absolute;
@@ -845,7 +860,12 @@ footer{
     border-radius: 0px;
     
     }
-    
+    .FrameB{
+        position: absolute;
+        bottom: -350px; /* Положение контейнера с кнопкой над футером */
+        width: 100%;
+        text-align: center;
+    }
     .FooterDownRight{
        
     position: absolute;

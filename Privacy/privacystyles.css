@@ -465,11 +465,12 @@ border-radius: 30px;
 
             .Frame1 {
             max-width: 800px;
-            margin: 20px auto;
+            top: 80px;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            max-height: calc(100vh - 270px);
         }
 
         .Frame1 p.headerprivacy {
@@ -478,10 +479,12 @@ border-radius: 30px;
             text-align: center;
             margin-bottom: 20px;
             color: #007bff;
+            
         }
 
         .privacydiv {
             margin-bottom: 20px;
+            
         }
 
         .privacydiv p {
@@ -489,7 +492,7 @@ border-radius: 30px;
             padding: 0;
             text-align: justify;
         }
-
+header{ z-index: 1000;}
 
 
 footer{
@@ -1547,6 +1550,9 @@ top: 929px;
         button.StyleB{
             border:none;
             background: none;
+            padding: 10px 20px;
+            border: none;
+    border-radius: 5px;
         }
         body.dark-theme button {
             background-color: #ffffff;
