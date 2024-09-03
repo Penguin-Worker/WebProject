@@ -303,7 +303,7 @@
 }
 .FrameB{
     position: absolute;
-    bottom: -100px; 
+    bottom: 10px; 
     width: 100%;
     text-align: center;
 }
@@ -841,7 +841,7 @@ border-radius: 0px;
 footer{
     
     position: absolute;
-    width: 320px;
+    max-width: 320px;
     height: 914px;
     left: 0px;
     top: 1214px;
@@ -860,7 +860,7 @@ footer{
     }
     .FrameB{
         position: absolute;
-        bottom: -350px; 
+        bottom: -250px; 
         width: 100%;
         text-align: center;
     }
