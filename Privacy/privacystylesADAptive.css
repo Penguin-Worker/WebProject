@@ -288,7 +288,7 @@
     min-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     
@@ -813,7 +813,7 @@ border-radius: 0px;
     margin: 420px auto 20px; 
     min-width: 300px;
     padding: 20px;
-    background-color: #fff;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     max-height: calc(100vh - 20px);
