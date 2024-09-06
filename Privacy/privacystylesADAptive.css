@@ -1340,12 +1340,7 @@ footer{
         transform-style: preserve-3d;
         animation: rotateCube 0.5s infinite linear;
     }
-    .cube1 {
-        width: 40px;
-        height: 40px;
-        transform-style: preserve-3d;
-        animation: rotateCube 5s infinite linear;
-    }
+    
     .side {
         position: absolute;
         width: 40px;
