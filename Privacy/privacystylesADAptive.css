@@ -285,10 +285,10 @@
  .Frame1 {
    
     max-width: 90%;
-    min-width: 400px;
+    min-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    
+    max-height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     
@@ -1321,7 +1321,15 @@ footer{
         top: 130px;
         
         }
+        .FrameB{
         
+            position: fixed;
+            top: 90%;
+            z-index: 1000;
+            max-width: 320px;
+            justify-content: center;
+        align-items: center;
+        }
     }
     .animation-container {
         width: 320px;
@@ -1368,4 +1376,11 @@ footer{
     @keyframes rotateCube {
         from { transform: rotateX(0deg) rotateY(0deg); }
         to { transform: rotateX(360deg) rotateY(360deg); }
+    }
+    
+    .StyleBT{        
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #007bff;
+        font-size: 14px;
+            font-weight: bold;
     }
