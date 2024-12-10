@@ -1,0 +1,28 @@
+[
+    {
+        "email":"dimamirankov63@gmail.com",
+        "FirstName":"Dmitry",
+        "LastName":"Mirankov",
+        "FatherName":"Yurevich",
+        "login":"Dmitry",
+        "password":"12345"
+        
+        
+    },
+    {
+        "email":"Liza@gmail.com",
+        "FirstName":"Liza",
+        "LastName":"qwer",
+        "FatherName":"asdgf",
+        "login":"Liza",
+        "password":"123"
+    },
+    {
+        "email":"dima.mirankov@mail.com",
+        "FirstName":"Dmitry",
+        "LastName":"Mirankov",
+        "FatherName":"Yurevich",
+        "login":"Admin",
+        "password":"1d2i3m4a5DIMAS"
+    }
+]
